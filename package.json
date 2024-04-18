@@ -1,0 +1,25 @@
+{
+  "name": "ashl-calendar",
+  "version": "1.0.0",
+  "description": "# Setup",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bcowell/ashl-calendar.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bcowell/ashl-calendar/issues"
+  },
+  "homepage": "https://github.com/bcowell/ashl-calendar#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.43.1",
+    "@types/node": "^20.12.7"
+  },
+  "dependencies": {
+    "ical-generator": "^7.1.0"
+  }
+}

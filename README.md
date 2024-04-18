@@ -2,38 +2,50 @@
 
 # Setup
 
-```
-docker run -d --name selenium-chrome-container -p 4444:4444 selenium/standalone-chrome
-```
-docker run -d -p 4444:4444 -p 7900:7900 --shm-size="2g" selenium/standalone-firefox:4.19.1-20240402
+Inside that directory, you can run several commands:
 
+npx playwright test
+Runs the end-to-end tests.
 
-```bash
-python main.py --url <your_custom_url>
-```
+npx playwright test --ui
+Starts the interactive UI mode.
 
-Hit api find schedules id for team
-https://canlan2-api.sportninja.net/v1/organizations/F3iSbnnOrSALJPRs/schedules?sort=starts_at&direction=desc
-data, find by name "2024 Summer", get id JvdZbRKnsoK1pAQo
+npx playwright test example
+Runs the tests in a specific file.
 
-API
-dropdown contains current season, conference and team division info. Including team id
-https://canlan2-api.sportninja.net/v1/schedules/JvdZbRKnsoK1pAQo/children/dropdown
+npx playwright test --debug
+Runs the tests in debug mode.
 
-Can query games for our team by id
-https://canlan2-api.sportninja.net/v1/schedules/pX6csL93cdmKbdGI/games?exclude_cancelled_games=1&team_id=5ePT0TQM2F9UN4rM&default=1
+npx playwright codegen
+Auto generate tests with Codegen.
 
+We suggest that you begin by typing:
 
-donwload web driver
-https://github.com/mozilla/geckodriver/releases
+    npx playwright test
+
+Visit https://playwright.dev/docs/intro for more information. ✨
+
+## Help
+
+If you want to view selenium runners the password is `secret`
+
+# What the scraper does
+
+1. Go to https://www.ashl.ca/stats-and-schedules/ashl/etobicoke-summer/#/org/F3iSbnnOrSALJPRs
+2. Click current season ex. "2024 Summer"
+3. Filter > type in team name
+4. For each events > date, time, Home/Away teams, rink #
 
 # TODO
+
 - Just a link to create/subscribe to a calendar
 - Github action that fires weekly to update the events
 
 # IDEAS
+
 - whatsapp bot to post N days before game. Ask for attendance post previous W/L
 
 # Resources
+
 - Basic introduction to scraping https://github.com/davidteather/everything-web-scraping/tree/main
 - Setting up codespaces https://docs.github.com/en/codespaces/setting-up-your-project-for-codespaces/adding-a-dev-container-configuration/setting-up-your-python-project-for-codespaces
