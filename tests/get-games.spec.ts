@@ -97,9 +97,13 @@ test("grab auth token and fetch games through api", async ({ page }) => {
       id: gameId,
       start: startTime,
       end: endTime,
-      summary: `${homeTeam} (h) vs ${visitingTeam} (a)`,
+      summary: `${homeTeam} vs ${visitingTeam}`,
       location: `${venue}, ${streetAddress}, ${city}, ${province}, ${postalCode}`,
-      description: `${facility} | ${schedule}`,
+      description: `${facility}
+      ${schedule}
+      Home: ${homeTeam}
+      Away: ${visitingTeam}
+      `,
     });
   });
 

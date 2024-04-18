@@ -6,34 +6,37 @@ X-WR-CALNAME:ASHL Big City Boys S24
 BEGIN:VEVENT
 UID:ykQq9b15lLkuzzxe
 SEQUENCE:0
-DTSTAMP:20240418T183446Z
+DTSTAMP:20240418T221541Z
 DTSTART:20240423T021500Z
 DTEND:20240423T041500Z
 SUMMARY:2 Much 2th (h) vs Big City Boys (a)
 LOCATION:Canlan Sports Etobicoke\, 1120 Martin Grove Road\, Etobicoke\, ON
  \, M9W 4W1
-DESCRIPTION:Etobicoke | ETO-3 | Monday Men's 18+ E
+DESCRIPTION:Etobicoke | ETO-3\n      Monday Men's 18+ E\n      Home: 2 Muc
+ h 2th\n      Away: Big City Boys\n      
 END:VEVENT
 BEGIN:VEVENT
 UID:7oomFFyKSFsZ5jR9
 SEQUENCE:0
-DTSTAMP:20240418T183446Z
+DTSTAMP:20240418T221541Z
 DTSTART:20240430T023000Z
 DTEND:20240430T043000Z
 SUMMARY:Mongolian Horde (h) vs Big City Boys (a)
 LOCATION:Canlan Sports York\, 989 Murray Ross Parkway\, North York\, ON\, 
  M3J 3M4
-DESCRIPTION:Canlan York | York 1 | Monday Men's 18+ E
+DESCRIPTION:Canlan York | York 1\n      Monday Men's 18+ E\n      Home: Mo
+ ngolian Horde\n      Away: Big City Boys\n      
 END:VEVENT
 BEGIN:VEVENT
 UID:RKJA2A8naXgRJt7u
 SEQUENCE:0
-DTSTAMP:20240418T183446Z
+DTSTAMP:20240418T221541Z
 DTSTART:20240507T003000Z
 DTEND:20240507T023000Z
 SUMMARY:Big City Boys (h) vs Fighting Falcons (a)
 LOCATION:Canlan Sports Etobicoke\, 1120 Martin Grove Road\, Etobicoke\, ON
  \, M9W 4W1
-DESCRIPTION:Etobicoke | ETO-4 | Monday Men's 18+ E
+DESCRIPTION:Etobicoke | ETO-4\n      Monday Men's 18+ E\n      Home: Big C
+ ity Boys\n      Away: Fighting Falcons\n      
 END:VEVENT
 END:VCALENDAR
