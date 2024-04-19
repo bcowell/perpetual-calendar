@@ -80,9 +80,10 @@ test("grab auth token and fetch games through api", async ({ page }) => {
 
   games.forEach((game) => {
     const gameId = game.id;
-    // const timeZone = game.venue.timezone;
     const startTime = new Date(game.starts_at);
-    const endTime = new Date(game.ends_at);
+    let endTime = new Date(game.starts_at);
+    endTime.setHours(endTime.getHours() + 1);
+
     const homeTeam = game.homeTeam.name;
     const visitingTeam = game.visitingTeam.name;
     const venue = game.venue.name;
