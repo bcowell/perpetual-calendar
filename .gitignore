@@ -4,3 +4,4 @@ node_modules/
 /playwright/.cache/
 package-lock.json
 yarn.lock
+.DS_Store
