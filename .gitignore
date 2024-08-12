@@ -2,6 +2,7 @@ node_modules/
 /playwright-report/
 /blob-report/
 /playwright/.cache/
+/test-results
 package-lock.json
 yarn.lock
 .DS_Store

@@ -1,11 +1,16 @@
 # perpetual-calendar
 
-Creates a subscribable .ics calendar that is auto-updated with events by scraping the perpetual motion's schedule for weekly games.
+Creates a subscribable .ics calendar with events by scraping the perpetual motion's schedule for weekly games.
 
 # Details
 
-Uses [playwright](https://playwright.dev/docs/intro) to open a headless browser. Grabs an auth token from localStorage, crafts some API requests to fetch upcoming games. Dumps the games as events in an .ics.
-Runs on a weekly cron schedule that updates the .ics file through github-actions.
+Uses [playwright](https://playwright.dev/docs/intro) to open a headless browser.
+Lookup team internal id to query the API and parse HTML response to then dump the games as events in an .ics.
+Runs manually through github-actions.
+
+Subscribe to a specific calendar by going to https://github.com/bcowell/perpetual-calendar/raw/main/ics/CALENDAR.ics
+
+Substituting in your calendar filename.
 
 # Setup
 

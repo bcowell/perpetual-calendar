@@ -1,0 +1,79 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//sebbo.net//ical-generator//EN
+NAME:McGlovin 3 Pitch
+X-WR-CALNAME:McGlovin 3 Pitch
+BEGIN:VEVENT
+UID:39edafba-de83-4797-956d-1f0458af4844
+SEQUENCE:0
+DTSTAMP:20240812T210443Z
+DTSTART:20240703T223000Z
+DTEND:20240704T000000Z
+SUMMARY:McGlovin vs Got the Runs
+LOCATION:Royal City
+DESCRIPTION:getByRole('heading'\, { name: 'McGlovin' })\n  Home: McGlovin\
+ n  Away: Got the Runs\n  https://www.google.com/maps/d/edit?mid=1ahmDWNZxc
+ cmXUotHte2OCNWleM58e6o&ll=43.53871570023756%2C-80.24452543632609&z=18
+END:VEVENT
+BEGIN:VEVENT
+UID:502b2dc5-d8a7-4f9d-84a4-48625fe95a5a
+SEQUENCE:0
+DTSTAMP:20240812T210443Z
+DTSTART:20240710T223000Z
+DTEND:20240711T000000Z
+SUMMARY:McGlovin vs Ump Yours
+LOCATION:Pine Ridge # 1
+DESCRIPTION:getByRole('heading'\, { name: 'McGlovin' })\n  Home: McGlovin\
+ n  Away: Ump Yours\n  https://www.google.com/maps/d/edit?mid=1cob3jt28rP0C
+ I1vmztAbK3ao20g86dA&ll=43.51169494519915%2C-80.192855&z=18
+END:VEVENT
+BEGIN:VEVENT
+UID:90623cae-01fe-40eb-aa71-eab2ebd2320d
+SEQUENCE:0
+DTSTAMP:20240812T210443Z
+DTSTART:20240717T223000Z
+DTEND:20240718T000000Z
+SUMMARY:The Soft Serves vs McGlovin
+LOCATION:Colonial Drive # 1
+DESCRIPTION:getByRole('heading'\, { name: 'McGlovin' })\n  Home: The Soft 
+ Serves\n  Away: McGlovin\n  https://www.google.com/maps/d/edit?mid=1wQqilE
+ RpLYGsQxzSJZ1bddnRYPu5pNE&ll=43.516958208544146%2C-80.18236541633988&z=19
+END:VEVENT
+BEGIN:VEVENT
+UID:15eb01cc-e811-4204-a289-95f2ae59e54a
+SEQUENCE:0
+DTSTAMP:20240812T210443Z
+DTSTART:20240724T223000Z
+DTEND:20240725T000000Z
+SUMMARY:McGlovin vs Cleats and Cleavage
+LOCATION:Colonial Drive # 1
+DESCRIPTION:getByRole('heading'\, { name: 'McGlovin' })\n  Home: McGlovin\
+ n  Away: Cleats and Cleavage\n  https://www.google.com/maps/d/edit?mid=1wQ
+ qilERpLYGsQxzSJZ1bddnRYPu5pNE&ll=43.516958208544146%2C-80.18236541633988&z
+ =19
+END:VEVENT
+BEGIN:VEVENT
+UID:a3f0e8da-68b8-4910-8353-12d9794a0f19
+SEQUENCE:0
+DTSTAMP:20240812T210443Z
+DTSTART:20240731T223000Z
+DTEND:20240801T000000Z
+SUMMARY:Brew Crew vs McGlovin
+LOCATION:Earl Brimblecombe # 1
+DESCRIPTION:getByRole('heading'\, { name: 'McGlovin' })\n  Home: Brew Crew
+ \n  Away: McGlovin\n  https://www.google.com/maps/d/edit?mid=1Zz_kfogQMJJ7
+ Pv5qARCRRsBkpjzzyxE&ll=43.52623824518598%2C-80.29402420000001&z=18
+END:VEVENT
+BEGIN:VEVENT
+UID:42e99865-284a-4d4f-938a-bb9f0d020a55
+SEQUENCE:0
+DTSTAMP:20240812T210443Z
+DTSTART:20240807T223000Z
+DTEND:20240808T000000Z
+SUMMARY:Scared Hitless vs McGlovin
+LOCATION:Royal City
+DESCRIPTION:getByRole('heading'\, { name: 'McGlovin' })\n  Home: Scared Hi
+ tless\n  Away: McGlovin\n  https://www.google.com/maps/d/edit?mid=1ahmDWNZ
+ xccmXUotHte2OCNWleM58e6o&ll=43.53871570023756%2C-80.24452543632609&z=18
+END:VEVENT
+END:VCALENDAR

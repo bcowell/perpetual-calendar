@@ -12,8 +12,8 @@ test("find schedule and create .ics", async ({ page }) => {
   const apiBaseUrl = "https://data.perpetualmotion.org";
   const scheduleUrl =
     "https://perpetualmotion.org/3-pitch-schedules-and-standings/";
-  const calendarName = "Perpetual 3 Pitch McGlovin";
-  const iCalFileName = "V1.0.0";
+  const calendarName = "McGlovin 3 Pitch";
+  const iCalFileName = "mcglovin";
 
   page.on("console", (msg) => {
     console.log(msg);
@@ -84,7 +84,7 @@ test("find schedule and create .ics", async ({ page }) => {
     const fieldHref = (await fieldLocator.getAttribute("href")) || "";
 
     const timeStr = cells[5].trim(); // '6:30 PM'
-    const shirtColor = cells[6].trim();
+    const shirtColor = cells[6].trim().toLowerCase();
 
     const game = {
       id: uuid(),

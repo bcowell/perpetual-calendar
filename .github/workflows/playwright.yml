@@ -6,6 +6,18 @@ on:
         description: "Url pointing to the sport schedule"
         required: false
         default: "https://perpetualmotion.org/3-pitch-schedules-and-standings/"
+      teamName:
+        description: "Exact match team name to look for on the page"
+        required: false
+        default: "McGlovin"
+      calendarName:
+        description: ""
+        required: false
+        default: "McGlovin 3 Pitch"
+      iCalFileName:
+        description: ""
+        required: false
+        default: "mcglovin"
 
 jobs:
   test:
