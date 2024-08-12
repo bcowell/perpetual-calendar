@@ -14,7 +14,7 @@ Runs on a weekly cron schedule that updates the .ics file through github-actions
 Run the scraper and create an .ics
 
 ```
-npx playwright test get-games
+npx playwright test get-schedule
 ```
 
 # IDEAS

@@ -1,8 +1,11 @@
 name: Playwright Tests
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "0 7 * * mon"
+    inputs:
+      scheduleUrl:
+        description: "Url pointing to the sport schedule"
+        required: false
+        default: "https://perpetualmotion.org/3-pitch-schedules-and-standings/"
 
 jobs:
   test:
