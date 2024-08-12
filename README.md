@@ -1,6 +1,6 @@
-# ashl-calendar
+# perpetual-calendar
 
-Creates a subscribable .ics calendar that is auto-updated with events by scraping the ASHL schedule for our teams hockey games.
+Creates a subscribable .ics calendar that is auto-updated with events by scraping the perpetual motion's schedule for weekly games.
 
 # Details
 

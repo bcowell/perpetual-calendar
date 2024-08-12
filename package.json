@@ -1,22 +1,22 @@
 {
-  "name": "ashl-calendar",
+  "name": "perpetual-calendar",
   "version": "1.0.0",
   "description": "# Setup",
   "main": "index.js",
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bcowell/ashl-calendar.git"
+    "url": "git+https://github.com/bcowell/perpetual-calendar.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/bcowell/ashl-calendar/issues"
+    "url": "https://github.com/bcowell/perpetual-calendar/issues"
   },
-  "homepage": "https://github.com/bcowell/ashl-calendar#readme",
+  "homepage": "https://github.com/bcowell/perpetual-calendar#readme",
   "devDependencies": {
-    "@playwright/test": "^1.43.1",
+    "@playwright/test": "^1.46.0",
     "@types/node": "^20.12.7"
   },
   "dependencies": {
