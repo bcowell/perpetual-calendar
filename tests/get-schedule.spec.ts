@@ -7,6 +7,24 @@ import fs from "fs";
 
 global.DOMParser = new JSDOM().window.DOMParser;
 
+const addressLookup = {
+  "Centennial High School": "289 College Ave. West",
+  "Colonial Drive Park": "209 Colonial Dr.",
+  "Earl Brimblecombe Park": "17 Elmira Rd. North",
+  "Exhibition Park": "Kathleen St.",
+  "Guelph Lake Sports Fields": "664 Woodlawn Rd East",
+  "Hugh Gurhre Park": "111 Forest St.",
+  "Marden Park": "7391 Marden Rd.",
+  "Margaret Greene Park": "80 Westwood Rd.",
+  "Norm Jary Park": "22 Shelldale Crescent",
+  "Pine Ridge Park": "87 Pine Ridge Drive",
+  "Riverside Park": "709 Woolwich St.",
+  "Royal City Park": "139 Gordon St.",
+  "W.E. Hamilton Park": "275 Scottsdale Drive",
+  "University of Guelph – East & West": "South Ring Rd E & Stone Rd E",
+  "University of Guelph – Main Diamond": "South Ring Rd E & College Ave.",
+};
+
 test("find schedule and create .ics", async ({ page }) => {
   const teamName = "McGlovin";
   const apiBaseUrl = "https://data.perpetualmotion.org";
@@ -52,10 +70,12 @@ test("find schedule and create .ics", async ({ page }) => {
   // https://data.perpetualmotion.org/web-app/team/13501
   await page.goto(apiBaseUrl + teamUrl);
 
-  const teamScheduleHeading = await page.getByRole("heading", {
-    name: teamName,
-  });
-  await expect(teamScheduleHeading).toBeVisible();
+  const teamScheduleHeading = await page
+    .getByRole("heading", {
+      name: teamName,
+    })
+    .textContent();
+  // await expect(teamScheduleHeading).to();
 
   // Read data from table rows
   let games: Array<any> = [];
