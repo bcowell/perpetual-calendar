@@ -33,7 +33,7 @@ jobs:
       - name: Install Playwright Browsers
         run: npx playwright install --with-deps
       - name: Run Playwright tests
-        run: npx playwright test get-games
+        run: npx playwright test get-schedule
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: Auto-update ics changes

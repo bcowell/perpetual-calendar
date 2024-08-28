@@ -4,75 +4,15 @@ PRODID:-//sebbo.net//ical-generator//EN
 NAME:McGlovin 3 Pitch
 X-WR-CALNAME:McGlovin 3 Pitch
 BEGIN:VEVENT
-UID:7dd1c420-ef40-46c5-9b9f-3f4c1e670d79
+UID:06a3cad7-670d-4756-915f-e364f121a0db
 SEQUENCE:0
-DTSTAMP:20240812T213419Z
-DTSTART:20240703T223000Z
-DTEND:20240704T000000Z
+DTSTAMP:20240828T210509Z
+DTSTART:20240828T223000Z
+DTEND:20240829T000000Z
 SUMMARY:McGlovin vs Got the Runs
-LOCATION:Royal City
+LOCATION:Centennial # 10
 DESCRIPTION:McGlovin - Recreational - Wednesday\n  Home: McGlovin\n  Away:
-  Got the Runs\n  https://www.google.com/maps/d/edit?mid=1ahmDWNZxccmXUotHt
- e2OCNWleM58e6o&ll=43.53871570023756%2C-80.24452543632609&z=18
-END:VEVENT
-BEGIN:VEVENT
-UID:1aef287d-0717-48e5-8694-cd6725abc650
-SEQUENCE:0
-DTSTAMP:20240812T213419Z
-DTSTART:20240710T223000Z
-DTEND:20240711T000000Z
-SUMMARY:McGlovin vs Ump Yours
-LOCATION:Pine Ridge # 1
-DESCRIPTION:McGlovin - Recreational - Wednesday\n  Home: McGlovin\n  Away:
-  Ump Yours\n  https://www.google.com/maps/d/edit?mid=1cob3jt28rP0CI1vmztAb
- K3ao20g86dA&ll=43.51169494519915%2C-80.192855&z=18
-END:VEVENT
-BEGIN:VEVENT
-UID:d5630bad-60d8-41f3-8731-cdc93373d6f2
-SEQUENCE:0
-DTSTAMP:20240812T213419Z
-DTSTART:20240717T223000Z
-DTEND:20240718T000000Z
-SUMMARY:The Soft Serves vs McGlovin
-LOCATION:Colonial Drive # 1
-DESCRIPTION:McGlovin - Recreational - Wednesday\n  Home: The Soft Serves\n
-   Away: McGlovin\n  https://www.google.com/maps/d/edit?mid=1wQqilERpLYGsQx
- zSJZ1bddnRYPu5pNE&ll=43.516958208544146%2C-80.18236541633988&z=19
-END:VEVENT
-BEGIN:VEVENT
-UID:643087c1-b603-4e92-b8fd-4bbc60a237e9
-SEQUENCE:0
-DTSTAMP:20240812T213419Z
-DTSTART:20240724T223000Z
-DTEND:20240725T000000Z
-SUMMARY:McGlovin vs Cleats and Cleavage
-LOCATION:Colonial Drive # 1
-DESCRIPTION:McGlovin - Recreational - Wednesday\n  Home: McGlovin\n  Away:
-  Cleats and Cleavage\n  https://www.google.com/maps/d/edit?mid=1wQqilERpLY
- GsQxzSJZ1bddnRYPu5pNE&ll=43.516958208544146%2C-80.18236541633988&z=19
-END:VEVENT
-BEGIN:VEVENT
-UID:47bb5057-1d0f-4300-bfe5-1dab26a1ef78
-SEQUENCE:0
-DTSTAMP:20240812T213419Z
-DTSTART:20240731T223000Z
-DTEND:20240801T000000Z
-SUMMARY:Brew Crew vs McGlovin
-LOCATION:Earl Brimblecombe # 1
-DESCRIPTION:McGlovin - Recreational - Wednesday\n  Home: Brew Crew\n  Away
- : McGlovin\n  https://www.google.com/maps/d/edit?mid=1Zz_kfogQMJJ7Pv5qARCR
- RsBkpjzzyxE&ll=43.52623824518598%2C-80.29402420000001&z=18
-END:VEVENT
-BEGIN:VEVENT
-UID:6e5609af-2d54-47fb-8c90-2a8d33de1086
-SEQUENCE:0
-DTSTAMP:20240812T213419Z
-DTSTART:20240807T223000Z
-DTEND:20240808T000000Z
-SUMMARY:Scared Hitless vs McGlovin
-LOCATION:Royal City
-DESCRIPTION:McGlovin - Recreational - Wednesday\n  Home: Scared Hitless\n 
-  Away: McGlovin\n  https://www.google.com/maps/d/edit?mid=1ahmDWNZxccmXUot
- Hte2OCNWleM58e6o&ll=43.53871570023756%2C-80.24452543632609&z=18
+  Got the Runs\n  https://www.google.com/maps/d/edit?mid=17FDG1y-NfURRukAtl
+ DGKKwUmWzelEZk&ll=43.520921487635896%2C-80.24950067633513&z=17
 END:VEVENT
 END:VCALENDAR
