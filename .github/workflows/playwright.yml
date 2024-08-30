@@ -23,6 +23,9 @@ on:
         required: true
         default: "mcglovin"
 
+env:
+  TZ: America/Toronto
+
 jobs:
   test:
     timeout-minutes: 60
