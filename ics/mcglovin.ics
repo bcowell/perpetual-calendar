@@ -4,9 +4,9 @@ PRODID:-//sebbo.net//ical-generator//EN
 NAME:McGlovin 3 Pitch
 X-WR-CALNAME:McGlovin 3 Pitch
 BEGIN:VEVENT
-UID:06a3cad7-670d-4756-915f-e364f121a0db
+UID:44da048c-a7b6-489f-b5bb-dc0c24ea84c9
 SEQUENCE:0
-DTSTAMP:20240828T210509Z
+DTSTAMP:20240830T190111Z
 DTSTART:20240828T223000Z
 DTEND:20240829T000000Z
 SUMMARY:McGlovin vs Got the Runs
@@ -14,5 +14,41 @@ LOCATION:Centennial # 10
 DESCRIPTION:McGlovin - Recreational - Wednesday\n  Home: McGlovin\n  Away:
   Got the Runs\n  https://www.google.com/maps/d/edit?mid=17FDG1y-NfURRukAtl
  DGKKwUmWzelEZk&ll=43.520921487635896%2C-80.24950067633513&z=17
+END:VEVENT
+BEGIN:VEVENT
+UID:ab136de6-8685-45f1-9447-c8a53049285a
+SEQUENCE:0
+DTSTAMP:20240830T190111Z
+DTSTART:20240904T221500Z
+DTEND:20240904T234500Z
+SUMMARY:Post-Ed vs McGlovin
+LOCATION:Centennial # 10
+DESCRIPTION:McGlovin - Recreational - Wednesday\n  Home: Post-Ed\n  Away: 
+ McGlovin\n  https://www.google.com/maps/d/edit?mid=17FDG1y-NfURRukAtlDGKKw
+ UmWzelEZk&ll=43.520921487635896%2C-80.24950067633513&z=17
+END:VEVENT
+BEGIN:VEVENT
+UID:dc1197c7-33b6-4408-9ac0-07d089f840d0
+SEQUENCE:0
+DTSTAMP:20240830T190111Z
+DTSTART:20240911T220000Z
+DTEND:20240911T233000Z
+SUMMARY:Cleats and Cleavage vs McGlovin
+LOCATION:Earl Brimblecombe # 1
+DESCRIPTION:McGlovin - Recreational - Wednesday\n  Home: Cleats and Cleava
+ ge\n  Away: McGlovin\n  https://www.google.com/maps/d/edit?mid=1Zz_kfogQMJ
+ J7Pv5qARCRRsBkpjzzyxE&ll=43.52623824518598%2C-80.29402420000001&z=18
+END:VEVENT
+BEGIN:VEVENT
+UID:c7e60322-5604-430e-a274-1e1935976563
+SEQUENCE:0
+DTSTAMP:20240830T190111Z
+DTSTART:20240918T223000Z
+DTEND:20240919T000000Z
+SUMMARY:Who's On First vs McGlovin
+LOCATION:Exhibition # 1
+DESCRIPTION:McGlovin - Recreational - Wednesday\n  Home: Who's On First\n 
+  Away: McGlovin\n  https://www.google.com/maps/d/edit?mid=1Czhx9eXkhMuC7ou
+ z1qbB1wKAoe8O82M&ll=43.55046756543241%2C-80.26338139023191&z=17
 END:VEVENT
 END:VCALENDAR

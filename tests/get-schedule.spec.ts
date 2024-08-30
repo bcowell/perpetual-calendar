@@ -26,12 +26,15 @@ const addressLookup = {
 };
 
 test("find schedule and create .ics", async ({ page }) => {
-  const teamName = "McGlovin";
-  const apiBaseUrl = "https://data.perpetualmotion.org";
   const scheduleUrl =
+    process.env.SCHEDULE_URL ||
     "https://perpetualmotion.org/3-pitch-schedules-and-standings/";
-  const calendarName = "McGlovin 3 Pitch";
-  const iCalFileName = "mcglovin";
+  const teamName = process.env.TEAM_NAME || "McGlovin";
+  const dayOfWeek = process.env.DAY_OF_WEEK || "Wednesday";
+  const calendarName = process.env.CALENDAR_NAME || "McGlovin 3 Pitch";
+  const iCalFileName = process.env.ICAL_FILE_NAME || "mcglovin";
+
+  const apiBaseUrl = "https://data.perpetualmotion.org";
 
   page.on("console", (msg) => {
     console.log(msg);
@@ -47,7 +50,11 @@ test("find schedule and create .ics", async ({ page }) => {
     async (response) => {
       if (response.url().includes(url)) {
         const responseText = await response.text();
-        return responseText.includes(teamName);
+
+        // now there's a tuesday team that copied our name...
+        return (
+          responseText.includes(dayOfWeek) && responseText.includes(teamName)
+        );
       }
       return false;
     },
