@@ -4,51 +4,15 @@ PRODID:-//sebbo.net//ical-generator//EN
 NAME:McGlovin 3 Pitch
 X-WR-CALNAME:McGlovin 3 Pitch
 BEGIN:VEVENT
-UID:17520bae-66c3-46c0-a6f8-b298a9542a98
+UID:7ae5bd73-e700-4287-a75b-4016dfff776f
 SEQUENCE:0
-DTSTAMP:20240830T191955Z
-DTSTART:20240828T223000Z
-DTEND:20240829T000000Z
-SUMMARY:McGlovin vs Got the Runs
-LOCATION:Centennial # 10
-DESCRIPTION:McGlovin - Recreational - Wednesday\n  Home: McGlovin\n  Away:
-  Got the Runs\n  https://www.google.com/maps/d/edit?mid=17FDG1y-NfURRukAtl
- DGKKwUmWzelEZk&ll=43.520921487635896%2C-80.24950067633513&z=17
-END:VEVENT
-BEGIN:VEVENT
-UID:08ce471e-dc9f-4450-aeab-94da38f30ca0
-SEQUENCE:0
-DTSTAMP:20240830T191955Z
-DTSTART:20240904T221500Z
-DTEND:20240904T234500Z
-SUMMARY:Post-Ed vs McGlovin
-LOCATION:Centennial # 10
-DESCRIPTION:McGlovin - Recreational - Wednesday\n  Home: Post-Ed\n  Away: 
- McGlovin\n  https://www.google.com/maps/d/edit?mid=17FDG1y-NfURRukAtlDGKKw
- UmWzelEZk&ll=43.520921487635896%2C-80.24950067633513&z=17
-END:VEVENT
-BEGIN:VEVENT
-UID:43ca5826-454e-45e4-b0e4-4721f946f135
-SEQUENCE:0
-DTSTAMP:20240830T191955Z
-DTSTART:20240911T220000Z
-DTEND:20240911T233000Z
-SUMMARY:Cleats and Cleavage vs McGlovin
-LOCATION:Earl Brimblecombe # 1
-DESCRIPTION:McGlovin - Recreational - Wednesday\n  Home: Cleats and Cleava
- ge\n  Away: McGlovin\n  https://www.google.com/maps/d/edit?mid=1Zz_kfogQMJ
- J7Pv5qARCRRsBkpjzzyxE&ll=43.52623824518598%2C-80.29402420000001&z=18
-END:VEVENT
-BEGIN:VEVENT
-UID:f7293a7e-3960-4013-ac77-428bec49fc55
-SEQUENCE:0
-DTSTAMP:20240830T191955Z
-DTSTART:20240918T223000Z
-DTEND:20240919T000000Z
-SUMMARY:Who's On First vs McGlovin
-LOCATION:Exhibition # 1
-DESCRIPTION:McGlovin - Recreational - Wednesday\n  Home: Who's On First\n 
-  Away: McGlovin\n  https://www.google.com/maps/d/edit?mid=1Czhx9eXkhMuC7ou
- z1qbB1wKAoe8O82M&ll=43.55046756543241%2C-80.26338139023191&z=17
+DTSTAMP:20250501T225235Z
+DTSTART:20250507T223000Z
+DTEND:20250508T000000Z
+SUMMARY:Brew Jays vs Brew Jays
+LOCATION:Colonial Drive # 1
+DESCRIPTION:McGlovin - Recreational - Wednesday\n  Home: Brew Jays\n  Away
+ : Brew Jays\n  https://www.google.com/maps/d/edit?mid=1wQqilERpLYGsQxzSJZ1
+ bddnRYPu5pNE&ll=43.516958208544146%2C-80.18236541633988&z=19
 END:VEVENT
 END:VCALENDAR
