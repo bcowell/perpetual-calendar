@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//sebbo.net//ical-generator//EN
+NAME:Fat Stacks Ultimate
+X-WR-CALNAME:Fat Stacks Ultimate
+BEGIN:VEVENT
+UID:78848195-d755-4544-a788-d1857adcea2b
+SEQUENCE:0
+DTSTAMP:20250505T173833Z
+DTSTART:20250506T223000Z
+DTEND:20250507T000000Z
+SUMMARY:Fat Stacks vs Disc-y Business
+LOCATION:UofG North Turf # 1
+DESCRIPTION:Fat Stacks - C Division - Tuesday\n  Home: Fat Stacks\n  Away:
+  Disc-y Business\n  https://www.google.com/maps/d/edit?mid=1Qil47sx6EsRgPu
+ 2Fj-TygzAL6n1gCxM&ll=43.5343576404852%2C-80.21964090690948&z=17
+END:VEVENT
+BEGIN:VEVENT
+UID:f9807e24-209b-46a0-8139-0e3789b39bac
+SEQUENCE:0
+DTSTAMP:20250505T173833Z
+DTSTART:20250506T231500Z
+DTEND:20250507T004500Z
+SUMMARY:Fat Stacks vs Huck Norris
+LOCATION:UofG North Turf # 1
+DESCRIPTION:Fat Stacks - C Division - Tuesday\n  Home: Fat Stacks\n  Away:
+  Huck Norris\n  https://www.google.com/maps/d/edit?mid=1Qil47sx6EsRgPu2Fj-
+ TygzAL6n1gCxM&ll=43.5343576404852%2C-80.21964090690948&z=17
+END:VEVENT
+END:VCALENDAR
