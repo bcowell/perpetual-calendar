@@ -4,9 +4,9 @@ PRODID:-//sebbo.net//ical-generator//EN
 NAME:McGlovin 3 Pitch
 X-WR-CALNAME:McGlovin 3 Pitch
 BEGIN:VEVENT
-UID:7ae5bd73-e700-4287-a75b-4016dfff776f
+UID:2540b470-c54e-41f7-a036-c699b5e76772
 SEQUENCE:0
-DTSTAMP:20250501T225235Z
+DTSTAMP:20250511T030925Z
 DTSTART:20250507T223000Z
 DTEND:20250508T000000Z
 SUMMARY:Brew Jays vs Brew Jays
@@ -14,5 +14,66 @@ LOCATION:Colonial Drive # 1
 DESCRIPTION:McGlovin - Recreational - Wednesday\n  Home: Brew Jays\n  Away
  : Brew Jays\n  https://www.google.com/maps/d/edit?mid=1wQqilERpLYGsQxzSJZ1
  bddnRYPu5pNE&ll=43.516958208544146%2C-80.18236541633988&z=19
+END:VEVENT
+BEGIN:VEVENT
+UID:c8921fd7-c332-4d69-94f6-1d8a912ef626
+SEQUENCE:0
+DTSTAMP:20250511T030925Z
+DTSTART:20250514T223000Z
+DTEND:20250515T000000Z
+SUMMARY:The Soft Serves vs The Soft Serves
+LOCATION:Earl Brimblecombe # 1
+DESCRIPTION:McGlovin - Recreational - Wednesday\n  Home: The Soft Serves\n
+   Away: The Soft Serves\n  https://www.google.com/maps/d/edit?mid=1Zz_kfog
+ QMJJ7Pv5qARCRRsBkpjzzyxE&ll=43.52623824518598%2C-80.29402420000001&z=18
+END:VEVENT
+BEGIN:VEVENT
+UID:b77ad30a-4823-424a-91b5-da923e027887
+SEQUENCE:0
+DTSTAMP:20250511T030925Z
+DTSTART:20250521T223000Z
+DTEND:20250522T000000Z
+SUMMARY:The Fowl Balls vs The Fowl Balls
+LOCATION:Earl Brimblecombe # 1
+DESCRIPTION:McGlovin - Recreational - Wednesday\n  Home: The Fowl Balls\n 
+  Away: The Fowl Balls\n  https://www.google.com/maps/d/edit?mid=1Zz_kfogQM
+ JJ7Pv5qARCRRsBkpjzzyxE&ll=43.52623824518598%2C-80.29402420000001&z=18
+END:VEVENT
+BEGIN:VEVENT
+UID:816ccd09-776f-4c56-9072-655300de5f8a
+SEQUENCE:0
+DTSTAMP:20250511T030925Z
+DTSTART:20250528T223000Z
+DTEND:20250529T000000Z
+SUMMARY:Lord of the Swings vs Lord of the Swings
+LOCATION:Royal City
+DESCRIPTION:McGlovin - Recreational - Wednesday\n  Home: Lord of the Swing
+ s\n  Away: Lord of the Swings\n  https://www.google.com/maps/d/edit?mid=1a
+ hmDWNZxccmXUotHte2OCNWleM58e6o&ll=43.53871570023756%2C-80.24452543632609&z
+ =18
+END:VEVENT
+BEGIN:VEVENT
+UID:972504fb-6257-44a8-875b-77d653565454
+SEQUENCE:0
+DTSTAMP:20250511T030925Z
+DTSTART:20250604T223000Z
+DTEND:20250605T000000Z
+SUMMARY:Ace of Bases vs Ace of Bases
+LOCATION:W.E. Hamilton # 1
+DESCRIPTION:McGlovin - Recreational - Wednesday\n  Home: Ace of Bases\n  A
+ way: Ace of Bases\n  https://www.google.com/maps/d/edit?mid=1fqyFRW3-rkW46
+ S5tSvSxy20aHav3mgc&ll=43.51940471797282%2C-80.24177443580814&z=17
+END:VEVENT
+BEGIN:VEVENT
+UID:31e7746a-3ba2-4f57-8c03-a465e3807560
+SEQUENCE:0
+DTSTAMP:20250511T030925Z
+DTSTART:20250611T223000Z
+DTEND:20250612T000000Z
+SUMMARY:Got the Runs vs Got the Runs
+LOCATION:Royal City
+DESCRIPTION:McGlovin - Recreational - Wednesday\n  Home: Got the Runs\n  A
+ way: Got the Runs\n  https://www.google.com/maps/d/edit?mid=1ahmDWNZxccmXU
+ otHte2OCNWleM58e6o&ll=43.53871570023756%2C-80.24452543632609&z=18
 END:VEVENT
 END:VCALENDAR
