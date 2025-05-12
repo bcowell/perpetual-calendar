@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "# Setup",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "playwright test get-schedule"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bcowell/perpetual-calendar.git"
@@ -21,6 +23,7 @@
   },
   "dependencies": {
     "date-fns": "^3.6.0",
+    "dotenv": "^16.5.0",
     "ical-generator": "^7.1.0",
     "jsdom": "^24.1.1",
     "uuid": "^10.0.0"

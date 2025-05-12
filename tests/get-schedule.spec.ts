@@ -4,6 +4,7 @@ import { JSDOM } from "jsdom";
 import { v4 as uuid } from "uuid";
 import ical from "ical-generator";
 import fs from "fs";
+import 'dotenv/config';
 
 global.DOMParser = new JSDOM().window.DOMParser;
 
@@ -96,13 +97,24 @@ test("find schedule and create .ics", async ({ page }) => {
     const gameNumber = cells[0].trim();
     const dateStr = cells[1].trim(); // 'Wed, Aug 07'
 
-    const opponent = row.locator("td:nth-child(3)");
-    const opponentTeamName = (await opponent.locator("a").textContent()) || "";
-    const opponentInfo = (await opponent.textContent()) || "";
-    const [opponentWinLoss, opponentSpiritScore] = opponentInfo
-      .replace(opponentTeamName, "")
-      .trim()
-      .split(" ");
+    let opponentTeamName: string;
+    let opponentInfo: string;
+    let opponentWinLoss: string;
+    let opponentSpiritScore: string;
+
+    if (cells[2].trim() === "PRACTICE") {
+      opponentTeamName = "Practice";
+      opponentWinLoss = "N/A";
+      opponentSpiritScore = opponentInfo = "N/A"
+    } else {
+      const opponent = row.locator("td:nth-child(3)");
+      opponentTeamName = (await opponent.locator("a").textContent()) || "";
+      opponentInfo = (await opponent.textContent()) || "";
+      [opponentWinLoss, opponentSpiritScore] = opponentInfo
+        .replace(opponentTeamName, "")
+        .trim()
+        .split(" ");
+    }
 
     const result = cells[3].trim();
 
@@ -111,7 +123,10 @@ test("find schedule and create .ics", async ({ page }) => {
     const fieldHref = (await fieldLocator.getAttribute("href")) || "";
 
     const timeStr = cells[5].trim(); // '6:30 PM'
-    const shirtColor = cells[6].trim().toLowerCase();
+    // For some reason Dave has this as Dark/Light in some cases and Home/Away in others
+    const homeOrAwayIndicator = cells[6].trim().toLowerCase(); // Dark/Light, Home/Away
+    const isHomeTeam = (homeOrAwayIndicator === "dark" || homeOrAwayIndicator === "home");
+    const isAwayTeam = (homeOrAwayIndicator === "light" || homeOrAwayIndicator === "away");
 
     const game = {
       id: uuid(),
@@ -127,7 +142,8 @@ test("find schedule and create .ics", async ({ page }) => {
       result,
       field: field.trim(),
       fieldHref,
-      shirtColor,
+      isHomeTeam,
+      isAwayTeam,
     };
     console.log(game);
     games.push(game);
@@ -139,11 +155,16 @@ test("find schedule and create .ics", async ({ page }) => {
     const gameId = game.id;
     const startTime = new Date(game.startTime);
     let endTime = new Date(game.startTime);
-    endTime.setHours(endTime.getHours() + 1);
-    endTime.setMinutes(endTime.getMinutes() + 30);
 
-    const homeTeam = game.shirtColor === "dark" ? teamName : game.opponent;
-    const visitingTeam = game.shirtColor === "light" ? teamName : game.opponent;
+    if (scheduleUrl.includes("ultimate")) {
+      endTime.setMinutes(endTime.getMinutes() + 45);
+    } else {
+      endTime.setHours(endTime.getHours() + 1);
+      endTime.setMinutes(endTime.getMinutes() + 30);
+    }
+
+    const homeTeam = game.isHomeTeam ? teamName : game.opponent;
+    const visitingTeam = game.isAwayTeam ? teamName : game.opponent;
     const field = game.field;
     const fieldGoogleMapsHref = game.fieldHref;
 
