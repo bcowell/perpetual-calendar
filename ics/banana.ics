@@ -1,0 +1,83 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//sebbo.net//ical-generator//EN
+NAME:Big Banana Energy
+X-WR-CALNAME:Big Banana Energy
+BEGIN:VEVENT
+UID:830b2e06-b8b1-4463-8afe-61a8ed505d97
+SEQUENCE:0
+DTSTAMP:20250513T151631Z
+DTSTART:20250506T011500Z
+DTEND:20250506T020000Z
+SUMMARY:Big Banana Energy vs Frisbeasts
+LOCATION:UofG Field Hockey # 1
+DESCRIPTION:Big Banana Energy - B7 Division - Monday\n  Home: Big Banana E
+ nergy\n  Away: Frisbeasts\n  https://www.google.ca/maps/@43.5331679\,-80.2
+ 202383\,17z/data=!3m1!4b1!4m2!6m1!1s1THrq0yCDfM9u4uup7JdTWRFCHa_n1Yar?hl=e
+ n
+END:VEVENT
+BEGIN:VEVENT
+UID:d09a6e41-041b-45f5-a25e-d02d456612cc
+SEQUENCE:0
+DTSTAMP:20250513T151631Z
+DTSTART:20250512T223000Z
+DTEND:20250512T231500Z
+SUMMARY:Boomerang vs Boomerang
+LOCATION:Margaret Green # 4
+DESCRIPTION:Big Banana Energy - B7 Division - Monday\n  Home: Boomerang\n 
+  Away: Boomerang\n  https://www.google.com/maps/d/viewer?mid=16FqMYG8u1-pJ
+ Vh7GQUbSgxi12dt7fO_d&ll=43.5327636852476%2C-80.27796623261888&z=16
+END:VEVENT
+BEGIN:VEVENT
+UID:3336845f-5316-4284-baf9-8b3e26f5ed94
+SEQUENCE:0
+DTSTAMP:20250513T151631Z
+DTSTART:20250519T223000Z
+DTEND:20250519T231500Z
+SUMMARY:Big Banana Energy vs Solid Dumpz
+LOCATION:Guelph Lake # 2
+DESCRIPTION:Big Banana Energy - B7 Division - Monday\n  Home: Big Banana E
+ nergy\n  Away: Solid Dumpz\n  https://www.google.com/maps/d/viewer?mid=1EH
+ xB7OYTwj2QA79tLh3iuAzmqmhuWvvA&ll=43.58713922129513%2C-80.2551757473678&z=
+ 16
+END:VEVENT
+BEGIN:VEVENT
+UID:3435a95b-b8b9-45be-941e-16d3e9a5441d
+SEQUENCE:0
+DTSTAMP:20250513T151631Z
+DTSTART:20250526T223000Z
+DTEND:20250526T231500Z
+SUMMARY:Hucking Fooligans vs Hucking Fooligans
+LOCATION:Exhibition # 1
+DESCRIPTION:Big Banana Energy - B7 Division - Monday\n  Home: Hucking Fool
+ igans\n  Away: Hucking Fooligans\n  https://www.google.com/maps/d/u/0/view
+ er?mid=1LG1u9_0ngM2KlfDmrgelRs0eo8tXYsf9&ll=43.55041405958268%2C-80.262996
+ 55854338&z=16
+END:VEVENT
+BEGIN:VEVENT
+UID:a1a1524b-5083-432e-80de-27c7c4d1c43d
+SEQUENCE:0
+DTSTAMP:20250513T151631Z
+DTSTART:20250602T223000Z
+DTEND:20250602T231500Z
+SUMMARY:Aldous Hucksley vs Aldous Hucksley
+LOCATION:Exhibition # 1
+DESCRIPTION:Big Banana Energy - B7 Division - Monday\n  Home: Aldous Hucks
+ ley\n  Away: Aldous Hucksley\n  https://www.google.com/maps/d/u/0/viewer?m
+ id=1LG1u9_0ngM2KlfDmrgelRs0eo8tXYsf9&ll=43.55041405958268%2C-80.2629965585
+ 4338&z=16
+END:VEVENT
+BEGIN:VEVENT
+UID:db8aa6fb-4aea-4c91-8235-b5caf3905912
+SEQUENCE:0
+DTSTAMP:20250513T151631Z
+DTSTART:20250609T223000Z
+DTEND:20250609T231500Z
+SUMMARY:Big Banana Energy vs Frisbeasts
+LOCATION:Exhibition # 1
+DESCRIPTION:Big Banana Energy - B7 Division - Monday\n  Home: Big Banana E
+ nergy\n  Away: Frisbeasts\n  https://www.google.com/maps/d/u/0/viewer?mid=
+ 1LG1u9_0ngM2KlfDmrgelRs0eo8tXYsf9&ll=43.55041405958268%2C-80.2629965585433
+ 8&z=16
+END:VEVENT
+END:VCALENDAR
