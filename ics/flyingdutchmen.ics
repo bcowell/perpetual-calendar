@@ -1,0 +1,185 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//sebbo.net//ical-generator//EN
+NAME:The Flying Dutchman
+X-WR-CALNAME:The Flying Dutchman
+BEGIN:VEVENT
+UID:1ae92f72-89ab-429b-915a-0bdf3d187ea4
+SEQUENCE:0
+DTSTAMP:20250513T154324Z
+DTSTART:20250508T223000Z
+DTEND:20250508T231500Z
+SUMMARY:The Flying Dutchman vs FrisDeez
+LOCATION:Margaret # 1
+DESCRIPTION:The Flying Dutchman - C2 Division - Thursday\n  Home: The Flyi
+ ng Dutchman\n  Away: FrisDeez\n  https://www.google.com/maps/d/viewer?mid=
+ 16FqMYG8u1-pJVh7GQUbSgxi12dt7fO_d&ll=43.5327636852476%2C-80.27796623261888
+ &z=16
+END:VEVENT
+BEGIN:VEVENT
+UID:a7cae889-3c0b-4652-ab3b-38190fe201d2
+SEQUENCE:0
+DTSTAMP:20250513T154324Z
+DTSTART:20250508T231500Z
+DTEND:20250509T000000Z
+SUMMARY:The Flying Dutchman vs Huckitt
+LOCATION:Margaret # 1
+DESCRIPTION:The Flying Dutchman - C2 Division - Thursday\n  Home: The Flyi
+ ng Dutchman\n  Away: Huckitt\n  https://www.google.com/maps/d/viewer?mid=1
+ 6FqMYG8u1-pJVh7GQUbSgxi12dt7fO_d&ll=43.5327636852476%2C-80.27796623261888&
+ z=16
+END:VEVENT
+BEGIN:VEVENT
+UID:1f4dcd3d-6383-4558-a651-cc13374ba078
+SEQUENCE:0
+DTSTAMP:20250513T154324Z
+DTSTART:20250515T223000Z
+DTEND:20250515T231500Z
+SUMMARY:No Disc-Respect vs No Disc-Respect
+LOCATION:Exhibition # 1
+DESCRIPTION:The Flying Dutchman - C2 Division - Thursday\n  Home: No Disc-
+ Respect\n  Away: No Disc-Respect\n  https://www.google.com/maps/d/u/0/view
+ er?mid=1LG1u9_0ngM2KlfDmrgelRs0eo8tXYsf9&ll=43.55041405958268%2C-80.262996
+ 55854338&z=16
+END:VEVENT
+BEGIN:VEVENT
+UID:8907f090-aeb8-47dc-870d-ad498a21a78a
+SEQUENCE:0
+DTSTAMP:20250513T154324Z
+DTSTART:20250515T231500Z
+DTEND:20250516T000000Z
+SUMMARY:The UFHoes vs The UFHoes
+LOCATION:Exhibition # 2
+DESCRIPTION:The Flying Dutchman - C2 Division - Thursday\n  Home: The UFHo
+ es\n  Away: The UFHoes\n  https://www.google.com/maps/d/u/0/viewer?mid=1LG
+ 1u9_0ngM2KlfDmrgelRs0eo8tXYsf9&ll=43.55041405958268%2C-80.26299655854338&z
+ =16
+END:VEVENT
+BEGIN:VEVENT
+UID:f0bf3a55-a2dd-4ded-98bc-c62ae8dd0144
+SEQUENCE:0
+DTSTAMP:20250513T154324Z
+DTSTART:20250522T223000Z
+DTEND:20250522T231500Z
+SUMMARY:The Flying Dutchman vs Game of Throws
+LOCATION:Margaret # 2
+DESCRIPTION:The Flying Dutchman - C2 Division - Thursday\n  Home: The Flyi
+ ng Dutchman\n  Away: Game of Throws\n  https://www.google.com/maps/d/viewe
+ r?mid=16FqMYG8u1-pJVh7GQUbSgxi12dt7fO_d&ll=43.5327636852476%2C-80.27796623
+ 261888&z=16
+END:VEVENT
+BEGIN:VEVENT
+UID:228de174-97b7-4595-93de-65212506814b
+SEQUENCE:0
+DTSTAMP:20250513T154324Z
+DTSTART:20250522T231500Z
+DTEND:20250523T000000Z
+SUMMARY:The Flying Dutchman vs Protagonists
+LOCATION:Margaret # 2
+DESCRIPTION:The Flying Dutchman - C2 Division - Thursday\n  Home: The Flyi
+ ng Dutchman\n  Away: Protagonists\n  https://www.google.com/maps/d/viewer?
+ mid=16FqMYG8u1-pJVh7GQUbSgxi12dt7fO_d&ll=43.5327636852476%2C-80.2779662326
+ 1888&z=16
+END:VEVENT
+BEGIN:VEVENT
+UID:aaf5362a-58d3-4816-be06-c53829f27495
+SEQUENCE:0
+DTSTAMP:20250513T154324Z
+DTSTART:20250529T223000Z
+DTEND:20250529T231500Z
+SUMMARY:The Flying Dutchman vs DISCount Athletes
+LOCATION:Margaret # 1
+DESCRIPTION:The Flying Dutchman - C2 Division - Thursday\n  Home: The Flyi
+ ng Dutchman\n  Away: DISCount Athletes\n  https://www.google.com/maps/d/vi
+ ewer?mid=16FqMYG8u1-pJVh7GQUbSgxi12dt7fO_d&ll=43.5327636852476%2C-80.27796
+ 623261888&z=16
+END:VEVENT
+BEGIN:VEVENT
+UID:f196ca43-0c6c-4b49-a4e5-e5d5934e2b6a
+SEQUENCE:0
+DTSTAMP:20250513T154324Z
+DTSTART:20250529T231500Z
+DTEND:20250530T000000Z
+SUMMARY:The Flying Dutchman vs Rice Frisbees
+LOCATION:Margaret # 1
+DESCRIPTION:The Flying Dutchman - C2 Division - Thursday\n  Home: The Flyi
+ ng Dutchman\n  Away: Rice Frisbees\n  https://www.google.com/maps/d/viewer
+ ?mid=16FqMYG8u1-pJVh7GQUbSgxi12dt7fO_d&ll=43.5327636852476%2C-80.277966232
+ 61888&z=16
+END:VEVENT
+BEGIN:VEVENT
+UID:b2982a02-1d9e-43a6-8968-43fe3479f695
+SEQUENCE:0
+DTSTAMP:20250513T154324Z
+DTSTART:20250605T223000Z
+DTEND:20250605T231500Z
+SUMMARY:Uppercuts vs Uppercuts
+LOCATION:Margaret # 4
+DESCRIPTION:The Flying Dutchman - C2 Division - Thursday\n  Home: Uppercut
+ s\n  Away: Uppercuts\n  https://www.google.com/maps/d/viewer?mid=16FqMYG8u
+ 1-pJVh7GQUbSgxi12dt7fO_d&ll=43.5327636852476%2C-80.27796623261888&z=16
+END:VEVENT
+BEGIN:VEVENT
+UID:8332dc63-a772-4a09-be65-afef30776700
+SEQUENCE:0
+DTSTAMP:20250513T154324Z
+DTSTART:20250605T231500Z
+DTEND:20250606T000000Z
+SUMMARY:Deborah vs Deborah
+LOCATION:Margaret # 5
+DESCRIPTION:The Flying Dutchman - C2 Division - Thursday\n  Home: Deborah\
+ n  Away: Deborah\n  https://www.google.com/maps/d/viewer?mid=16FqMYG8u1-pJ
+ Vh7GQUbSgxi12dt7fO_d&ll=43.5327636852476%2C-80.27796623261888&z=16
+END:VEVENT
+BEGIN:VEVENT
+UID:32ac5e8f-de13-43ac-b470-b4b511733a9e
+SEQUENCE:0
+DTSTAMP:20250513T154324Z
+DTSTART:20250612T223000Z
+DTEND:20250612T231500Z
+SUMMARY:5 Alive vs 5 Alive
+LOCATION:Margaret # 4
+DESCRIPTION:The Flying Dutchman - C2 Division - Thursday\n  Home: 5 Alive\
+ n  Away: 5 Alive\n  https://www.google.com/maps/d/viewer?mid=16FqMYG8u1-pJ
+ Vh7GQUbSgxi12dt7fO_d&ll=43.5327636852476%2C-80.27796623261888&z=16
+END:VEVENT
+BEGIN:VEVENT
+UID:ff341feb-f3ae-4600-b52c-b71cdf645b04
+SEQUENCE:0
+DTSTAMP:20250513T154324Z
+DTSTART:20250612T231500Z
+DTEND:20250613T000000Z
+SUMMARY:Frizzee McGuire vs Frizzee McGuire
+LOCATION:Margaret # 5
+DESCRIPTION:The Flying Dutchman - C2 Division - Thursday\n  Home: Frizzee 
+ McGuire\n  Away: Frizzee McGuire\n  https://www.google.com/maps/d/viewer?m
+ id=16FqMYG8u1-pJVh7GQUbSgxi12dt7fO_d&ll=43.5327636852476%2C-80.27796623261
+ 888&z=16
+END:VEVENT
+BEGIN:VEVENT
+UID:ee098741-06ed-41fb-b76e-63eace0d8eca
+SEQUENCE:0
+DTSTAMP:20250513T154324Z
+DTSTART:20250619T223000Z
+DTEND:20250619T231500Z
+SUMMARY:The Huck Tales vs The Huck Tales
+LOCATION:Lourdes # 1
+DESCRIPTION:The Flying Dutchman - C2 Division - Thursday\n  Home: The Huck
+  Tales\n  Away: The Huck Tales\n  https://www.google.com/maps/d/viewer?mid
+ =104FmrmPdSOeTkqWf8xrwkwVSaDj4ykL2&ll=43.54741898679073%2C-80.267715876299
+ 62&z=16
+END:VEVENT
+BEGIN:VEVENT
+UID:6acb7ed3-3a17-4eda-b061-a2e668a83d97
+SEQUENCE:0
+DTSTAMP:20250513T154324Z
+DTSTART:20250619T231500Z
+DTEND:20250620T000000Z
+SUMMARY:Hammerrhoids vs Hammerrhoids
+LOCATION:Lourdes # 2
+DESCRIPTION:The Flying Dutchman - C2 Division - Thursday\n  Home: Hammerrh
+ oids\n  Away: Hammerrhoids\n  https://www.google.com/maps/d/viewer?mid=104
+ FmrmPdSOeTkqWf8xrwkwVSaDj4ykL2&ll=43.54741898679073%2C-80.26771587629962&z
+ =16
+END:VEVENT
+END:VCALENDAR
