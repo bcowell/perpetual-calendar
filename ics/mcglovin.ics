@@ -4,75 +4,75 @@ PRODID:-//sebbo.net//ical-generator//EN
 NAME:McGlovin 3 Pitch
 X-WR-CALNAME:McGlovin 3 Pitch
 BEGIN:VEVENT
-UID:d0f24cc4-6633-43f0-9652-3227b7719edd
+UID:2c6bd831-3e9b-4d7f-859f-bf3025d8bf28
 SEQUENCE:0
-DTSTAMP:20250512T221748Z
-DTSTART:20250507T223000Z
-DTEND:20250508T000000Z
-SUMMARY:Brew Jays vs McGlovin
+DTSTAMP:20250704T225440Z
+DTSTART:20250702T223000Z
+DTEND:20250703T000000Z
+SUMMARY:McGlovin vs Bunt Force Trauma
 LOCATION:Colonial Drive # 1
-DESCRIPTION:McGlovin - Recreational - Wednesday\n  Home: Brew Jays\n  Away
- : McGlovin\n  https://www.google.com/maps/d/edit?mid=1wQqilERpLYGsQxzSJZ1b
- ddnRYPu5pNE&ll=43.516958208544146%2C-80.18236541633988&z=19
-END:VEVENT
-BEGIN:VEVENT
-UID:b7a4f5d1-32e2-4be9-8cde-dc238e20333e
-SEQUENCE:0
-DTSTAMP:20250512T221748Z
-DTSTART:20250514T223000Z
-DTEND:20250515T000000Z
-SUMMARY:McGlovin vs The Soft Serves
-LOCATION:Earl Brimblecombe # 1
 DESCRIPTION:McGlovin - Recreational - Wednesday\n  Home: McGlovin\n  Away:
-  The Soft Serves\n  https://www.google.com/maps/d/edit?mid=1Zz_kfogQMJJ7Pv
- 5qARCRRsBkpjzzyxE&ll=43.52623824518598%2C-80.29402420000001&z=18
+  Bunt Force Trauma\n  https://www.google.com/maps/d/edit?mid=1wQqilERpLYGs
+ QxzSJZ1bddnRYPu5pNE&ll=43.516958208544146%2C-80.18236541633988&z=19
 END:VEVENT
 BEGIN:VEVENT
-UID:b8ac45e3-8395-441e-b9e0-d9950d055082
+UID:f12a6b92-f570-430a-830a-4384e2fb16b1
 SEQUENCE:0
-DTSTAMP:20250512T221748Z
-DTSTART:20250521T223000Z
-DTEND:20250522T000000Z
-SUMMARY:The Fowl Balls vs McGlovin
-LOCATION:Earl Brimblecombe # 1
-DESCRIPTION:McGlovin - Recreational - Wednesday\n  Home: The Fowl Balls\n 
-  Away: McGlovin\n  https://www.google.com/maps/d/edit?mid=1Zz_kfogQMJJ7Pv5
- qARCRRsBkpjzzyxE&ll=43.52623824518598%2C-80.29402420000001&z=18
-END:VEVENT
-BEGIN:VEVENT
-UID:93bb6853-84af-4cfe-9392-7a185724147d
-SEQUENCE:0
-DTSTAMP:20250512T221748Z
-DTSTART:20250528T223000Z
-DTEND:20250529T000000Z
-SUMMARY:McGlovin vs Lord of the Swings
+DTSTAMP:20250704T225440Z
+DTSTART:20250709T223000Z
+DTEND:20250710T000000Z
+SUMMARY:McGlovin vs Stealing the Show
 LOCATION:Royal City
 DESCRIPTION:McGlovin - Recreational - Wednesday\n  Home: McGlovin\n  Away:
-  Lord of the Swings\n  https://www.google.com/maps/d/edit?mid=1ahmDWNZxccm
- XUotHte2OCNWleM58e6o&ll=43.53871570023756%2C-80.24452543632609&z=18
+  Stealing the Show\n  https://www.google.com/maps/d/edit?mid=1ahmDWNZxccmX
+ UotHte2OCNWleM58e6o&ll=43.53871570023756%2C-80.24452543632609&z=18
 END:VEVENT
 BEGIN:VEVENT
-UID:43114cf5-00a3-437b-a9dd-5183eb6ddf72
+UID:d1bf6662-0884-4abd-8895-040491d9f989
 SEQUENCE:0
-DTSTAMP:20250512T221748Z
-DTSTART:20250604T223000Z
-DTEND:20250605T000000Z
-SUMMARY:Ace of Bases vs McGlovin
+DTSTAMP:20250704T225440Z
+DTSTART:20250716T223000Z
+DTEND:20250717T000000Z
+SUMMARY:Waste Activated Sluggers vs McGlovin
+LOCATION:Earl Brimblecombe # 1
+DESCRIPTION:McGlovin - Recreational - Wednesday\n  Home: Waste Activated S
+ luggers\n  Away: McGlovin\n  https://www.google.com/maps/d/edit?mid=1Zz_kf
+ ogQMJJ7Pv5qARCRRsBkpjzzyxE&ll=43.52623824518598%2C-80.29402420000001&z=18
+END:VEVENT
+BEGIN:VEVENT
+UID:9cc22a84-fdcd-4b27-a524-3cfb8a500f06
+SEQUENCE:0
+DTSTAMP:20250704T225440Z
+DTSTART:20250723T223000Z
+DTEND:20250724T000000Z
+SUMMARY:The Beach 52's vs McGlovin
 LOCATION:W.E. Hamilton # 1
-DESCRIPTION:McGlovin - Recreational - Wednesday\n  Home: Ace of Bases\n  A
- way: McGlovin\n  https://www.google.com/maps/d/edit?mid=1fqyFRW3-rkW46S5tS
- vSxy20aHav3mgc&ll=43.51940471797282%2C-80.24177443580814&z=17
+DESCRIPTION:McGlovin - Recreational - Wednesday\n  Home: The Beach 52's\n 
+  Away: McGlovin\n  https://www.google.com/maps/d/edit?mid=1fqyFRW3-rkW46S5
+ tSvSxy20aHav3mgc&ll=43.51940471797282%2C-80.24177443580814&z=17
 END:VEVENT
 BEGIN:VEVENT
-UID:a2a38967-01b5-4cec-8aa2-4dc3f92bb901
+UID:bfb66315-79be-45ba-92e8-ec9ab579b912
 SEQUENCE:0
-DTSTAMP:20250512T221748Z
-DTSTART:20250611T223000Z
-DTEND:20250612T000000Z
-SUMMARY:McGlovin vs Got the Runs
+DTSTAMP:20250704T225440Z
+DTSTART:20250730T223000Z
+DTEND:20250731T000000Z
+SUMMARY:McGlovin vs Pitch Slappers
 LOCATION:Royal City
 DESCRIPTION:McGlovin - Recreational - Wednesday\n  Home: McGlovin\n  Away:
-  Got the Runs\n  https://www.google.com/maps/d/edit?mid=1ahmDWNZxccmXUotHt
- e2OCNWleM58e6o&ll=43.53871570023756%2C-80.24452543632609&z=18
+  Pitch Slappers\n  https://www.google.com/maps/d/edit?mid=1ahmDWNZxccmXUot
+ Hte2OCNWleM58e6o&ll=43.53871570023756%2C-80.24452543632609&z=18
+END:VEVENT
+BEGIN:VEVENT
+UID:9025b554-5af3-4149-af1e-be43eb951b29
+SEQUENCE:0
+DTSTAMP:20250704T225440Z
+DTSTART:20250806T223000Z
+DTEND:20250807T000000Z
+SUMMARY:Cleats and Cleavage vs McGlovin
+LOCATION:W.E. Hamilton # 1
+DESCRIPTION:McGlovin - Recreational - Wednesday\n  Home: Cleats and Cleava
+ ge\n  Away: McGlovin\n  https://www.google.com/maps/d/edit?mid=1fqyFRW3-rk
+ W46S5tSvSxy20aHav3mgc&ll=43.51940471797282%2C-80.24177443580814&z=17
 END:VEVENT
 END:VCALENDAR
