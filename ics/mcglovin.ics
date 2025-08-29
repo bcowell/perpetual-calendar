@@ -4,75 +4,52 @@ PRODID:-//sebbo.net//ical-generator//EN
 NAME:McGlovin 3 Pitch
 X-WR-CALNAME:McGlovin 3 Pitch
 BEGIN:VEVENT
-UID:2c6bd831-3e9b-4d7f-859f-bf3025d8bf28
+UID:8838f1a3-75eb-4e95-a93e-c9370e549552
 SEQUENCE:0
-DTSTAMP:20250704T225440Z
-DTSTART:20250702T223000Z
-DTEND:20250703T000000Z
-SUMMARY:McGlovin vs Bunt Force Trauma
-LOCATION:Colonial Drive # 1
+DTSTAMP:20250829T154858Z
+DTSTART:20250827T223000Z
+DTEND:20250828T000000Z
+SUMMARY:McGlovin vs Brew Jays
+LOCATION:Earl Brimblecombe # 2
 DESCRIPTION:McGlovin - Recreational - Wednesday\n  Home: McGlovin\n  Away:
-  Bunt Force Trauma\n  https://www.google.com/maps/d/edit?mid=1wQqilERpLYGs
- QxzSJZ1bddnRYPu5pNE&ll=43.516958208544146%2C-80.18236541633988&z=19
+  Brew Jays\n  https://www.google.com/maps/d/edit?mid=1Zz_kfogQMJJ7Pv5qARCR
+ RsBkpjzzyxE&ll=43.52623824518598%2C-80.29402420000001&z=18
 END:VEVENT
 BEGIN:VEVENT
-UID:f12a6b92-f570-430a-830a-4384e2fb16b1
+UID:5f9c77d3-1330-469d-9def-a09603859438
 SEQUENCE:0
-DTSTAMP:20250704T225440Z
-DTSTART:20250709T223000Z
-DTEND:20250710T000000Z
-SUMMARY:McGlovin vs Stealing the Show
-LOCATION:Royal City
+DTSTAMP:20250829T154858Z
+DTSTART:20250903T221500Z
+DTEND:20250903T234500Z
+SUMMARY:McGlovin vs Got The Runs
+LOCATION:Margaret Greene # 5
 DESCRIPTION:McGlovin - Recreational - Wednesday\n  Home: McGlovin\n  Away:
-  Stealing the Show\n  https://www.google.com/maps/d/edit?mid=1ahmDWNZxccmX
- UotHte2OCNWleM58e6o&ll=43.53871570023756%2C-80.24452543632609&z=18
+  Got The Runs\n  https://www.google.com/maps/d/edit?mid=1eUvfmqOp0uQ41VE_v
+ ziGEKx6coz9ddw&ll=43.53053862626621%2C-80.28154721606269&z=17
 END:VEVENT
 BEGIN:VEVENT
-UID:d1bf6662-0884-4abd-8895-040491d9f989
+UID:0af0a401-c06b-43cd-b611-f740538c7677
 SEQUENCE:0
-DTSTAMP:20250704T225440Z
-DTSTART:20250716T223000Z
-DTEND:20250717T000000Z
-SUMMARY:Waste Activated Sluggers vs McGlovin
-LOCATION:Earl Brimblecombe # 1
-DESCRIPTION:McGlovin - Recreational - Wednesday\n  Home: Waste Activated S
- luggers\n  Away: McGlovin\n  https://www.google.com/maps/d/edit?mid=1Zz_kf
- ogQMJJ7Pv5qARCRRsBkpjzzyxE&ll=43.52623824518598%2C-80.29402420000001&z=18
+DTSTAMP:20250829T154858Z
+DTSTART:20250910T220000Z
+DTEND:20250910T233000Z
+SUMMARY:The Sackler Family Team for Evidence-Based 3-Pitch vs McGlovin
+LOCATION:Margaret Greene # 3
+DESCRIPTION:McGlovin - Recreational - Wednesday\n  Home: The Sackler Famil
+ y Team for Evidence-Based 3-Pitch\n  Away: McGlovin\n  https://www.google.
+ com/maps/d/edit?mid=1eUvfmqOp0uQ41VE_vziGEKx6coz9ddw&ll=43.53053862626621%
+ 2C-80.28154721606269&z=17
 END:VEVENT
 BEGIN:VEVENT
-UID:9cc22a84-fdcd-4b27-a524-3cfb8a500f06
+UID:7ffaf29a-a0c2-48a7-9b86-3635f10eb47f
 SEQUENCE:0
-DTSTAMP:20250704T225440Z
-DTSTART:20250723T223000Z
-DTEND:20250724T000000Z
-SUMMARY:The Beach 52's vs McGlovin
-LOCATION:W.E. Hamilton # 1
-DESCRIPTION:McGlovin - Recreational - Wednesday\n  Home: The Beach 52's\n 
-  Away: McGlovin\n  https://www.google.com/maps/d/edit?mid=1fqyFRW3-rkW46S5
- tSvSxy20aHav3mgc&ll=43.51940471797282%2C-80.24177443580814&z=17
-END:VEVENT
-BEGIN:VEVENT
-UID:bfb66315-79be-45ba-92e8-ec9ab579b912
-SEQUENCE:0
-DTSTAMP:20250704T225440Z
-DTSTART:20250730T223000Z
-DTEND:20250731T000000Z
-SUMMARY:McGlovin vs Pitch Slappers
-LOCATION:Royal City
-DESCRIPTION:McGlovin - Recreational - Wednesday\n  Home: McGlovin\n  Away:
-  Pitch Slappers\n  https://www.google.com/maps/d/edit?mid=1ahmDWNZxccmXUot
- Hte2OCNWleM58e6o&ll=43.53871570023756%2C-80.24452543632609&z=18
-END:VEVENT
-BEGIN:VEVENT
-UID:9025b554-5af3-4149-af1e-be43eb951b29
-SEQUENCE:0
-DTSTAMP:20250704T225440Z
-DTSTART:20250806T223000Z
-DTEND:20250807T000000Z
-SUMMARY:Cleats and Cleavage vs McGlovin
-LOCATION:W.E. Hamilton # 1
-DESCRIPTION:McGlovin - Recreational - Wednesday\n  Home: Cleats and Cleava
- ge\n  Away: McGlovin\n  https://www.google.com/maps/d/edit?mid=1fqyFRW3-rk
- W46S5tSvSxy20aHav3mgc&ll=43.51940471797282%2C-80.24177443580814&z=17
+DTSTAMP:20250829T154858Z
+DTSTART:20250917T220000Z
+DTEND:20250917T233000Z
+SUMMARY:The Fowl Balls vs McGlovin
+LOCATION:Margaret Greene # 4
+DESCRIPTION:McGlovin - Recreational - Wednesday\n  Home: The Fowl Balls\n 
+  Away: McGlovin\n  https://www.google.com/maps/d/edit?mid=1eUvfmqOp0uQ41VE
+ _vziGEKx6coz9ddw&ll=43.53053862626621%2C-80.28154721606269&z=17
 END:VEVENT
 END:VCALENDAR
