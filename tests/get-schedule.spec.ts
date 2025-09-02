@@ -45,17 +45,12 @@ test("find schedule and create .ics", async ({ page }) => {
   //   console.log("<<", response.status(), response.url())
   // );
 
-  // Listen for each day of the week's schedule request/response
-  const url = "/schedule.php";
-  const responsePromise = page.waitForResponse(
+  // Listen for the schedule request/response
+    const url = "/web-app/api/schedules-standings";
+  const scheduleApiPromise = page.waitForResponse(
     async (response) => {
       if (response.url().includes(url)) {
-        const responseText = await response.text();
-
-        // now there's a tuesday team that copied our name...
-        return (
-          responseText.includes(dayOfWeek) && responseText.includes(teamName)
-        );
+        return true;
       }
       return false;
     },
@@ -64,15 +59,28 @@ test("find schedule and create .ics", async ({ page }) => {
 
   await page.goto(scheduleUrl);
 
-  const response = await responsePromise;
-  const responseText = await response.text();
+  const response = await scheduleApiPromise;
+  const scheduleData = await response.json();
 
+  let teamUrl = "";
+
+  // scheduleData is an array of seasons, each with an array of leagues
   // Lookup our teams current id
-  const parser = new DOMParser();
-  const htmlDoc = parser.parseFromString(responseText, "text/html");
+  scheduleData.forEach((season: any) => {
+    season.leagues.forEach((division: any) => {
+      if (division.weekday === dayOfWeek) {
+          division.teams.forEach((team: any) => {
+            if (team.name === teamName) {
+              teamUrl = `/web-app/team/${team.id}`;
+            }
+          });
+        }
+    });
+  });
 
-  const element = htmlDoc.querySelector(`a.team-link[title="${teamName}"]`);
-  const teamUrl = element?.getAttribute("href");
+  if (!teamUrl) {
+    throw new Error(`Could not find team ID for ${teamName}`);
+  }
 
   // Go to our teams current season schedule page
   // https://data.perpetualmotion.org/web-app/team/13501
