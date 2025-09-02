@@ -1,27 +1,27 @@
-name: Playwright Tests
+name: Ultimate - Playwright Workflow
 on:
   workflow_dispatch:
     inputs:
       scheduleUrl:
         description: "Url pointing to the sport schedule"
         required: true
-        default: "https://perpetualmotion.org/3-pitch-schedules-and-standings/"
+        default: "https://perpetualmotion.org/ultimate-schedules-and-standings/"
       teamName:
         description: "Exact match team name to look for on the page"
         required: true
-        default: "McGlovin"
+        default: "Fat Stacks"
       dayOfWeek:
         description: "Day of the week. This is used in-case teams on different days have duplicate names"
         required: true
-        default: "Wednesday"
+        default: "Tuesday"
       calendarName:
         description: "Title of the calendar"
         required: true
-        default: "McGlovin 3 Pitch"
+        default: "Fat Stacks Ultimate"
       iCalFileName:
         description: "Outputs calendar file as <iCalFileName>.ics"
         required: true
-        default: "mcglovin"
+        default: "fatstacks"
 
 env:
   TZ: America/Toronto

@@ -1,0 +1,53 @@
+name: 3-Pitch - Playwright Workflow
+on:
+  workflow_dispatch:
+    inputs:
+      scheduleUrl:
+        description: "Url pointing to the sport schedule"
+        required: true
+        default: "https://perpetualmotion.org/3-pitch-schedules-and-standings/"
+      teamName:
+        description: "Exact match team name to look for on the page"
+        required: true
+        default: "McGlovin"
+      dayOfWeek:
+        description: "Day of the week. This is used in-case teams on different days have duplicate names"
+        required: true
+        default: "Wednesday"
+      calendarName:
+        description: "Title of the calendar"
+        required: true
+        default: "McGlovin 3 Pitch"
+      iCalFileName:
+        description: "Outputs calendar file as <iCalFileName>.ics"
+        required: true
+        default: "mcglovin"
+
+env:
+  TZ: America/Toronto
+
+jobs:
+  test:
+    timeout-minutes: 60
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: lts/*
+      - name: Install dependencies
+        run: npm i
+      - name: Install Playwright Browsers
+        run: npx playwright install --with-deps
+      - name: Run Playwright tests
+        run: npx playwright test get-schedule
+        env:
+          SCHEDULE_URL: ${{ github.event.inputs.scheduleUrl }}
+          TEAM_NAME: ${{ github.event.inputs.teamName }}
+          DAY_OF_WEEK: ${{ github.event.inputs.dayOfWeek }}
+          CALENDAR_NAME: ${{ github.event.inputs.calendarName }}
+          ICAL_FILE_NAME: ${{ github.event.inputs.iCalFileName }}
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: Auto-update ics changes
+          file_pattern: "ics/*.ics"
