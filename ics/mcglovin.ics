@@ -4,52 +4,75 @@ PRODID:-//sebbo.net//ical-generator//EN
 NAME:McGlovin 3 Pitch
 X-WR-CALNAME:McGlovin 3 Pitch
 BEGIN:VEVENT
-UID:a5f4a178-b74b-4aff-8d09-131b72231df3
+UID:0b9fb700-38ab-42ce-a2fd-8f058de7a997
 SEQUENCE:0
-DTSTAMP:20250902T171826Z
-DTSTART:20250827T223000Z
-DTEND:20250828T000000Z
-SUMMARY:McGlovin vs Brew Jays
+DTSTAMP:20260427T225259Z
+DTSTART:20260506T223000Z
+DTEND:20260507T000000Z
+SUMMARY:Base Invaders vs McGlovin
+LOCATION:Earl Brimblecombe # 2
+DESCRIPTION:McGlovin - Recreational - Wednesday\n  Home: Base Invaders\n  
+ Away: McGlovin\n  https://www.google.com/maps/d/edit?mid=1Zz_kfogQMJJ7Pv5q
+ ARCRRsBkpjzzyxE&ll=43.52623824518598%2C-80.29402420000001&z=18
+END:VEVENT
+BEGIN:VEVENT
+UID:624e0f2c-3425-43f5-b1bd-4675f71b215d
+SEQUENCE:0
+DTSTAMP:20260427T225259Z
+DTSTART:20260513T223000Z
+DTEND:20260514T000000Z
+SUMMARY:Lord of the Swings vs McGlovin
+LOCATION:Hugh Guthrie # 1
+DESCRIPTION:McGlovin - Recreational - Wednesday\n  Home: Lord of the Swing
+ s\n  Away: McGlovin\n  https://www.google.com/maps/d/edit?mid=1hZ8Z0hZwrKf
+ -TNzhQG8R6GPXGKhtBmw&ll=43.530436507084914%2C-80.24677209766115&z=18
+END:VEVENT
+BEGIN:VEVENT
+UID:95cb1c4f-948e-4ae7-9ae9-71c0dc8fa6a0
+SEQUENCE:0
+DTSTAMP:20260427T225259Z
+DTSTART:20260520T223000Z
+DTEND:20260521T000000Z
+SUMMARY:McGlovin vs Post-Ed
+LOCATION:Hugh Guthrie # 1
+DESCRIPTION:McGlovin - Recreational - Wednesday\n  Home: McGlovin\n  Away:
+  Post-Ed\n  https://www.google.com/maps/d/edit?mid=1hZ8Z0hZwrKf-TNzhQG8R6G
+ PXGKhtBmw&ll=43.530436507084914%2C-80.24677209766115&z=18
+END:VEVENT
+BEGIN:VEVENT
+UID:ce636ce2-18d6-40e8-89ed-757b43922505
+SEQUENCE:0
+DTSTAMP:20260427T225259Z
+DTSTART:20260527T223000Z
+DTEND:20260528T000000Z
+SUMMARY:McGlovin vs Bat Flip Hero’s (BFH)
 LOCATION:Earl Brimblecombe # 2
 DESCRIPTION:McGlovin - Recreational - Wednesday\n  Home: McGlovin\n  Away:
-  Brew Jays\n  https://www.google.com/maps/d/edit?mid=1Zz_kfogQMJJ7Pv5qARCR
- RsBkpjzzyxE&ll=43.52623824518598%2C-80.29402420000001&z=18
+  Bat Flip Hero’s (BFH)\n  https://www.google.com/maps/d/edit?mid=1Zz_kfo
+ gQMJJ7Pv5qARCRRsBkpjzzyxE&ll=43.52623824518598%2C-80.29402420000001&z=18
 END:VEVENT
 BEGIN:VEVENT
-UID:5e277a3b-3b07-4dbf-92a7-64239c6d0795
+UID:fdce8f32-9f16-4d20-8179-f21551ec3d2c
 SEQUENCE:0
-DTSTAMP:20250902T171826Z
-DTSTART:20250903T221500Z
-DTEND:20250903T234500Z
-SUMMARY:McGlovin vs Got The Runs
-LOCATION:Margaret Greene # 5
+DTSTAMP:20260427T225259Z
+DTSTART:20260603T223000Z
+DTEND:20260604T000000Z
+SUMMARY:The Soft Serves vs McGlovin
+LOCATION:Centennial # 10
+DESCRIPTION:McGlovin - Recreational - Wednesday\n  Home: The Soft Serves\n
+   Away: McGlovin\n  https://www.google.com/maps/d/edit?mid=17FDG1y-NfURRuk
+ AtlDGKKwUmWzelEZk&ll=43.520921487635896%2C-80.24950067633513&z=17
+END:VEVENT
+BEGIN:VEVENT
+UID:f749dd85-082f-4cae-864d-6f8b157ccdc9
+SEQUENCE:0
+DTSTAMP:20260427T225259Z
+DTSTART:20260610T223000Z
+DTEND:20260611T000000Z
+SUMMARY:McGlovin vs The Diamond Dawgs
+LOCATION:Centennial # 10
 DESCRIPTION:McGlovin - Recreational - Wednesday\n  Home: McGlovin\n  Away:
-  Got The Runs\n  https://www.google.com/maps/d/edit?mid=1eUvfmqOp0uQ41VE_v
- ziGEKx6coz9ddw&ll=43.53053862626621%2C-80.28154721606269&z=17
-END:VEVENT
-BEGIN:VEVENT
-UID:c8cf368b-8670-4d74-8862-2dcc88a21601
-SEQUENCE:0
-DTSTAMP:20250902T171826Z
-DTSTART:20250910T220000Z
-DTEND:20250910T233000Z
-SUMMARY:The Sackler Family Team for Evidence-Based 3-Pitch vs McGlovin
-LOCATION:Margaret Greene # 3
-DESCRIPTION:McGlovin - Recreational - Wednesday\n  Home: The Sackler Famil
- y Team for Evidence-Based 3-Pitch\n  Away: McGlovin\n  https://www.google.
- com/maps/d/edit?mid=1eUvfmqOp0uQ41VE_vziGEKx6coz9ddw&ll=43.53053862626621%
- 2C-80.28154721606269&z=17
-END:VEVENT
-BEGIN:VEVENT
-UID:f21bfe1f-fef4-415f-8d7d-de4f9413f9e2
-SEQUENCE:0
-DTSTAMP:20250902T171826Z
-DTSTART:20250917T220000Z
-DTEND:20250917T233000Z
-SUMMARY:The Fowl Balls vs McGlovin
-LOCATION:Margaret Greene # 4
-DESCRIPTION:McGlovin - Recreational - Wednesday\n  Home: The Fowl Balls\n 
-  Away: McGlovin\n  https://www.google.com/maps/d/edit?mid=1eUvfmqOp0uQ41VE
- _vziGEKx6coz9ddw&ll=43.53053862626621%2C-80.28154721606269&z=17
+  The Diamond Dawgs\n  https://www.google.com/maps/d/edit?mid=17FDG1y-NfURR
+ ukAtlDGKKwUmWzelEZk&ll=43.520921487635896%2C-80.24950067633513&z=17
 END:VEVENT
 END:VCALENDAR
