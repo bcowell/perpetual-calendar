@@ -22,6 +22,8 @@ on:
         description: "Outputs calendar file as <iCalFileName>.ics"
         required: true
         default: "fatstacks"
+  schedule:
+    - cron: "0 0 * * 0" # every Sunday at midnight
 
 env:
   TZ: America/Toronto
