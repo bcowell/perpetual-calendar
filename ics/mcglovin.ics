@@ -4,75 +4,75 @@ PRODID:-//sebbo.net//ical-generator//EN
 NAME:McGlovin 3 Pitch
 X-WR-CALNAME:McGlovin 3 Pitch
 BEGIN:VEVENT
-UID:47cfce22-f287-45d0-b9f2-33383a9c334d
+UID:f9041ddd-dfec-4254-915f-8858b6aeff32
 SEQUENCE:0
-DTSTAMP:20260621T011337Z
-DTSTART:20260506T223000Z
-DTEND:20260507T000000Z
-SUMMARY:Base Invaders vs McGlovin
-LOCATION:Earl Brimblecombe # 2
-DESCRIPTION:McGlovin - Recreational - Wednesday\n  Home: Base Invaders\n  
- Away: McGlovin\n  https://www.google.com/maps/d/edit?mid=1Zz_kfogQMJJ7Pv5q
- ARCRRsBkpjzzyxE&ll=43.52623824518598%2C-80.29402420000001&z=18
-END:VEVENT
-BEGIN:VEVENT
-UID:de8ed244-b37f-4711-b8f4-3dd78d122637
-SEQUENCE:0
-DTSTAMP:20260621T011337Z
-DTSTART:20260513T223000Z
-DTEND:20260514T000000Z
-SUMMARY:Lord of the Swings vs McGlovin
-LOCATION:Hugh Guthrie # 1
-DESCRIPTION:McGlovin - Recreational - Wednesday\n  Home: Lord of the Swing
- s\n  Away: McGlovin\n  https://www.google.com/maps/d/edit?mid=1hZ8Z0hZwrKf
- -TNzhQG8R6GPXGKhtBmw&ll=43.530436507084914%2C-80.24677209766115&z=18
-END:VEVENT
-BEGIN:VEVENT
-UID:56264fcd-ae8d-4969-b6c0-c6e0913eada9
-SEQUENCE:0
-DTSTAMP:20260621T011337Z
-DTSTART:20260520T223000Z
-DTEND:20260521T000000Z
-SUMMARY:McGlovin vs Post-Ed
-LOCATION:Hugh Guthrie # 1
+DTSTAMP:20260625T001903Z
+DTSTART:20260701T223000Z
+DTEND:20260702T000000Z
+SUMMARY:McGlovin vs The Soft Serves
+LOCATION:Colonial Drive # 1
 DESCRIPTION:McGlovin - Recreational - Wednesday\n  Home: McGlovin\n  Away:
-  Post-Ed\n  https://www.google.com/maps/d/edit?mid=1hZ8Z0hZwrKf-TNzhQG8R6G
- PXGKhtBmw&ll=43.530436507084914%2C-80.24677209766115&z=18
+  The Soft Serves\n  https://www.google.com/maps/d/edit?mid=1wQqilERpLYGsQx
+ zSJZ1bddnRYPu5pNE&ll=43.516958208544146%2C-80.18236541633988&z=19
 END:VEVENT
 BEGIN:VEVENT
-UID:081fb61f-8079-4a3a-b568-405d1b141b2e
+UID:d6906022-6ab1-47ea-a094-442514b9244d
 SEQUENCE:0
-DTSTAMP:20260621T011337Z
-DTSTART:20260527T223000Z
-DTEND:20260528T000000Z
-SUMMARY:McGlovin vs Bat Flip Hero’s (BFH)
-LOCATION:Earl Brimblecombe # 2
+DTSTAMP:20260625T001903Z
+DTSTART:20260708T223000Z
+DTEND:20260709T000000Z
+SUMMARY:McGlovin vs One Hit Wonders
+LOCATION:Royal City
 DESCRIPTION:McGlovin - Recreational - Wednesday\n  Home: McGlovin\n  Away:
-  Bat Flip Hero’s (BFH)\n  https://www.google.com/maps/d/edit?mid=1Zz_kfo
- gQMJJ7Pv5qARCRRsBkpjzzyxE&ll=43.52623824518598%2C-80.29402420000001&z=18
+  One Hit Wonders\n  https://www.google.com/maps/d/edit?mid=1ahmDWNZxccmXUo
+ tHte2OCNWleM58e6o&ll=43.53871570023756%2C-80.24452543632609&z=18
 END:VEVENT
 BEGIN:VEVENT
-UID:be88cee8-1f61-4dd9-9768-9931035fbf60
+UID:10923cee-70f2-4e84-8b93-ced7091812f7
 SEQUENCE:0
-DTSTAMP:20260621T011337Z
-DTSTART:20260603T223000Z
-DTEND:20260604T000000Z
-SUMMARY:The Soft Serves vs McGlovin
-LOCATION:Centennial # 10
-DESCRIPTION:McGlovin - Recreational - Wednesday\n  Home: The Soft Serves\n
-   Away: McGlovin\n  https://www.google.com/maps/d/edit?mid=17FDG1y-NfURRuk
- AtlDGKKwUmWzelEZk&ll=43.520921487635896%2C-80.24950067633513&z=17
+DTSTAMP:20260625T001903Z
+DTSTART:20260715T223000Z
+DTEND:20260716T000000Z
+SUMMARY:The Clean Up Crew vs McGlovin
+LOCATION:Earl Brimblecombe # 1
+DESCRIPTION:McGlovin - Recreational - Wednesday\n  Home: The Clean Up Crew
+ \n  Away: McGlovin\n  https://www.google.com/maps/d/edit?mid=1Zz_kfogQMJJ7
+ Pv5qARCRRsBkpjzzyxE&ll=43.52623824518598%2C-80.29402420000001&z=18
 END:VEVENT
 BEGIN:VEVENT
-UID:ea958511-ac4d-4524-ab4c-0bea3c6286b9
+UID:15482cf0-694c-4072-8190-e50064a0c607
 SEQUENCE:0
-DTSTAMP:20260621T011337Z
-DTSTART:20260610T223000Z
-DTEND:20260611T000000Z
-SUMMARY:McGlovin vs The Diamond Dawgs
-LOCATION:Centennial # 10
+DTSTAMP:20260625T001903Z
+DTSTART:20260722T223000Z
+DTEND:20260723T000000Z
+SUMMARY:The Beach Flies vs McGlovin
+LOCATION:W.E. Hamilton # 1
+DESCRIPTION:McGlovin - Recreational - Wednesday\n  Home: The Beach Flies\n
+   Away: McGlovin\n  https://www.google.com/maps/d/edit?mid=1fqyFRW3-rkW46S
+ 5tSvSxy20aHav3mgc&ll=43.51940471797282%2C-80.24177443580814&z=17
+END:VEVENT
+BEGIN:VEVENT
+UID:0a5b33de-6b6b-4111-95cb-e3100ff205df
+SEQUENCE:0
+DTSTAMP:20260625T001903Z
+DTSTART:20260729T223000Z
+DTEND:20260730T000000Z
+SUMMARY:McGlovin vs Base Invaders
+LOCATION:Royal City
 DESCRIPTION:McGlovin - Recreational - Wednesday\n  Home: McGlovin\n  Away:
-  The Diamond Dawgs\n  https://www.google.com/maps/d/edit?mid=17FDG1y-NfURR
- ukAtlDGKKwUmWzelEZk&ll=43.520921487635896%2C-80.24950067633513&z=17
+  Base Invaders\n  https://www.google.com/maps/d/edit?mid=1ahmDWNZxccmXUotH
+ te2OCNWleM58e6o&ll=43.53871570023756%2C-80.24452543632609&z=18
+END:VEVENT
+BEGIN:VEVENT
+UID:74489c5c-9b12-4f73-9672-a473e7561af2
+SEQUENCE:0
+DTSTAMP:20260625T001903Z
+DTSTART:20260805T223000Z
+DTEND:20260806T000000Z
+SUMMARY:Got The Runs vs McGlovin
+LOCATION:W.E. Hamilton # 1
+DESCRIPTION:McGlovin - Recreational - Wednesday\n  Home: Got The Runs\n  A
+ way: McGlovin\n  https://www.google.com/maps/d/edit?mid=1fqyFRW3-rkW46S5tS
+ vSxy20aHav3mgc&ll=43.51940471797282%2C-80.24177443580814&z=17
 END:VEVENT
 END:VCALENDAR
