@@ -1,0 +1,83 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//sebbo.net//ical-generator//EN
+NAME:Parks and Wreck 3 Pitch
+X-WR-CALNAME:Parks and Wreck 3 Pitch
+BEGIN:VEVENT
+UID:7fb8cffe-5a4e-4d8e-916c-4c8c2087ff0a
+SEQUENCE:0
+DTSTAMP:20260703T141956Z
+DTSTART:20260630T223000Z
+DTEND:20260701T000000Z
+SUMMARY:Parks and Wreck vs Base Invaders
+LOCATION:UofG Twin East
+DESCRIPTION:Parks and Wreck - Recreational - Tuesday\n  Home: Parks and Wr
+ eck\n  Away: Base Invaders\n  https://www.google.com/maps/d/edit?mid=12JOO
+ liA7E5dQoB6X4JAXyLvVy5S4ulY&ll=43.533350999432486%2C-80.21708746079808&z=1
+ 7
+END:VEVENT
+BEGIN:VEVENT
+UID:9a542b14-8f62-42bb-a76e-8e6fd5f15ce6
+SEQUENCE:0
+DTSTAMP:20260703T141956Z
+DTSTART:20260707T223000Z
+DTEND:20260708T000000Z
+SUMMARY:Funky Johns vs Parks and Wreck
+LOCATION:Hugh Guthrie # 1
+DESCRIPTION:Parks and Wreck - Recreational - Tuesday\n  Home: Funky Johns\
+ n  Away: Parks and Wreck\n  https://www.google.com/maps/d/edit?mid=1hZ8Z0h
+ ZwrKf-TNzhQG8R6GPXGKhtBmw&ll=43.530436507084914%2C-80.24677209766115&z=18
+END:VEVENT
+BEGIN:VEVENT
+UID:86a237a8-a4fe-4ab6-8f76-e8c7e0aed51f
+SEQUENCE:0
+DTSTAMP:20260703T141956Z
+DTSTART:20260714T223000Z
+DTEND:20260715T000000Z
+SUMMARY:Parks and Wreck vs 3 Pitch Mafia
+LOCATION:UofG Twin East
+DESCRIPTION:Parks and Wreck - Recreational - Tuesday\n  Home: Parks and Wr
+ eck\n  Away: 3 Pitch Mafia\n  https://www.google.com/maps/d/edit?mid=12JOO
+ liA7E5dQoB6X4JAXyLvVy5S4ulY&ll=43.533350999432486%2C-80.21708746079808&z=1
+ 7
+END:VEVENT
+BEGIN:VEVENT
+UID:bfbdac76-56cb-4c23-a943-bb23c46d093f
+SEQUENCE:0
+DTSTAMP:20260703T141956Z
+DTSTART:20260721T223000Z
+DTEND:20260722T000000Z
+SUMMARY:Skip the Pitches vs Parks and Wreck
+LOCATION:UofG Twin East
+DESCRIPTION:Parks and Wreck - Recreational - Tuesday\n  Home: Skip the Pit
+ ches\n  Away: Parks and Wreck\n  https://www.google.com/maps/d/edit?mid=12
+ JOOliA7E5dQoB6X4JAXyLvVy5S4ulY&ll=43.533350999432486%2C-80.21708746079808&
+ z=17
+END:VEVENT
+BEGIN:VEVENT
+UID:434973aa-37b4-4aee-88bc-e6169f1f1e58
+SEQUENCE:0
+DTSTAMP:20260703T141956Z
+DTSTART:20260729T000000Z
+DTEND:20260729T013000Z
+SUMMARY:Parks and Wreck vs The Diamond Dawgs
+LOCATION:University Main Diamond
+DESCRIPTION:Parks and Wreck - Recreational - Tuesday\n  Home: Parks and Wr
+ eck\n  Away: The Diamond Dawgs\n  https://www.google.com/maps/d/edit?mid=1
+ lV3skOtuuKzCheAl71rj3Wgy8yHTAMA&ll=43.53512092380971%2C-80.22521726537684&
+ z=18
+END:VEVENT
+BEGIN:VEVENT
+UID:6bb8ca13-46a6-47e2-b077-99418f0be11e
+SEQUENCE:0
+DTSTAMP:20260703T141956Z
+DTSTART:20260804T223000Z
+DTEND:20260805T000000Z
+SUMMARY:The No Hit Wonders vs Parks and Wreck
+LOCATION:Margaret Greene # 5
+DESCRIPTION:Parks and Wreck - Recreational - Tuesday\n  Home: The No Hit W
+ onders\n  Away: Parks and Wreck\n  https://www.google.com/maps/d/edit?mid=
+ 1eUvfmqOp0uQ41VE_vziGEKx6coz9ddw&ll=43.53053862626621%2C-80.28154721606269
+ &z=17
+END:VEVENT
+END:VCALENDAR
