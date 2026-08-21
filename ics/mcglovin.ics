@@ -4,75 +4,51 @@ PRODID:-//sebbo.net//ical-generator//EN
 NAME:McGlovin 3 Pitch
 X-WR-CALNAME:McGlovin 3 Pitch
 BEGIN:VEVENT
-UID:a2277c71-f3b8-441b-9a6e-458359237aee
+UID:f146c4b5-3764-4153-893e-8f4f20d70fc9
 SEQUENCE:0
-DTSTAMP:20260816T013601Z
-DTSTART:20260701T223000Z
-DTEND:20260702T000000Z
-SUMMARY:McGlovin vs The Soft Serves
-LOCATION:Colonial Drive # 1
+DTSTAMP:20260821T203820Z
+DTSTART:20260826T223000Z
+DTEND:20260827T000000Z
+SUMMARY:Brew Jays vs McGlovin
+LOCATION:Earl Brimblecombe # 2
+DESCRIPTION:McGlovin - Recreational - Wednesday\n  Home: Brew Jays\n  Away
+ : McGlovin\n  https://www.google.com/maps/d/edit?mid=1Zz_kfogQMJJ7Pv5qARCR
+ RsBkpjzzyxE&ll=43.52623824518598%2C-80.29402420000001&z=18
+END:VEVENT
+BEGIN:VEVENT
+UID:9aaa6502-eed1-4fff-bffe-ca3733834bd9
+SEQUENCE:0
+DTSTAMP:20260821T203820Z
+DTSTART:20260902T221500Z
+DTEND:20260902T234500Z
+SUMMARY:McGlovin vs Base Down Bats Up
+LOCATION:Margaret Greene # 3
 DESCRIPTION:McGlovin - Recreational - Wednesday\n  Home: McGlovin\n  Away:
-  The Soft Serves\n  https://www.google.com/maps/d/edit?mid=1wQqilERpLYGsQx
- zSJZ1bddnRYPu5pNE&ll=43.516958208544146%2C-80.18236541633988&z=19
+  Base Down Bats Up\n  https://www.google.com/maps/d/edit?mid=1eUvfmqOp0uQ4
+ 1VE_vziGEKx6coz9ddw&ll=43.53053862626621%2C-80.28154721606269&z=17
 END:VEVENT
 BEGIN:VEVENT
-UID:d90f3d48-7a5d-4d4d-8a2d-7b60b3c80c9e
+UID:fb7fe657-273a-436f-9ee9-233e1cf2be83
 SEQUENCE:0
-DTSTAMP:20260816T013601Z
-DTSTART:20260708T223000Z
-DTEND:20260709T000000Z
-SUMMARY:McGlovin vs One Hit Wonders
-LOCATION:Royal City
+DTSTAMP:20260821T203820Z
+DTSTART:20260909T220000Z
+DTEND:20260909T233000Z
+SUMMARY:The Fowl Balls vs McGlovin
+LOCATION:Margaret Greene # 3
+DESCRIPTION:McGlovin - Recreational - Wednesday\n  Home: The Fowl Balls\n 
+  Away: McGlovin\n  https://www.google.com/maps/d/edit?mid=1eUvfmqOp0uQ41VE
+ _vziGEKx6coz9ddw&ll=43.53053862626621%2C-80.28154721606269&z=17
+END:VEVENT
+BEGIN:VEVENT
+UID:5ac7e3eb-448f-4c0a-a1c4-f3581547bb03
+SEQUENCE:0
+DTSTAMP:20260821T203820Z
+DTSTART:20260916T223000Z
+DTEND:20260917T000000Z
+SUMMARY:McGlovin vs Got the Runs
+LOCATION:Joe Kaine # 8
 DESCRIPTION:McGlovin - Recreational - Wednesday\n  Home: McGlovin\n  Away:
-  One Hit Wonders\n  https://www.google.com/maps/d/edit?mid=1ahmDWNZxccmXUo
- tHte2OCNWleM58e6o&ll=43.53871570023756%2C-80.24452543632609&z=18
-END:VEVENT
-BEGIN:VEVENT
-UID:ca12a530-09c8-4636-b643-48432a315f4e
-SEQUENCE:0
-DTSTAMP:20260816T013601Z
-DTSTART:20260715T223000Z
-DTEND:20260716T000000Z
-SUMMARY:The Clean Up Crew vs McGlovin
-LOCATION:Earl Brimblecombe # 1
-DESCRIPTION:McGlovin - Recreational - Wednesday\n  Home: The Clean Up Crew
- \n  Away: McGlovin\n  https://www.google.com/maps/d/edit?mid=1Zz_kfogQMJJ7
- Pv5qARCRRsBkpjzzyxE&ll=43.52623824518598%2C-80.29402420000001&z=18
-END:VEVENT
-BEGIN:VEVENT
-UID:955b5320-9326-48e9-ae07-f5f291e9c162
-SEQUENCE:0
-DTSTAMP:20260816T013601Z
-DTSTART:20260722T223000Z
-DTEND:20260723T000000Z
-SUMMARY:The Beach Flies vs McGlovin
-LOCATION:W.E. Hamilton # 1
-DESCRIPTION:McGlovin - Recreational - Wednesday\n  Home: The Beach Flies\n
-   Away: McGlovin\n  https://www.google.com/maps/d/edit?mid=1fqyFRW3-rkW46S
- 5tSvSxy20aHav3mgc&ll=43.51940471797282%2C-80.24177443580814&z=17
-END:VEVENT
-BEGIN:VEVENT
-UID:878c8d44-888a-4785-9981-ec567622163a
-SEQUENCE:0
-DTSTAMP:20260816T013601Z
-DTSTART:20260729T223000Z
-DTEND:20260730T000000Z
-SUMMARY:McGlovin vs Base Invaders
-LOCATION:Royal City
-DESCRIPTION:McGlovin - Recreational - Wednesday\n  Home: McGlovin\n  Away:
-  Base Invaders\n  https://www.google.com/maps/d/edit?mid=1ahmDWNZxccmXUotH
- te2OCNWleM58e6o&ll=43.53871570023756%2C-80.24452543632609&z=18
-END:VEVENT
-BEGIN:VEVENT
-UID:1c968b84-25b0-472a-a5af-4a325c75b154
-SEQUENCE:0
-DTSTAMP:20260816T013601Z
-DTSTART:20260805T223000Z
-DTEND:20260806T000000Z
-SUMMARY:Got The Runs vs McGlovin
-LOCATION:W.E. Hamilton # 1
-DESCRIPTION:McGlovin - Recreational - Wednesday\n  Home: Got The Runs\n  A
- way: McGlovin\n  https://www.google.com/maps/d/edit?mid=1fqyFRW3-rkW46S5tS
- vSxy20aHav3mgc&ll=43.51940471797282%2C-80.24177443580814&z=17
+  Got the Runs\n  https://www.google.com/maps/d/edit?mid=1eVrDxL303MSMPywwh
+ mCZ1xtyZuV0Ua0&ll=43.5268799901384%2C-80.24871301389223&z=18
 END:VEVENT
 END:VCALENDAR
