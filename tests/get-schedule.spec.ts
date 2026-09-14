@@ -1,32 +1,16 @@
 import { test, expect } from "@playwright/test";
-import { parse } from "date-fns";
-import { JSDOM } from "jsdom";
+import { parse, isValid } from "date-fns";
 import { v4 as uuid } from "uuid";
 import ical from "ical-generator";
 import fs from "fs";
 import 'dotenv/config';
 
-global.DOMParser = new JSDOM().window.DOMParser;
+const apiBaseUrl = "https://data.perpetualmotion.org/web-app/api";
 
-const addressLookup = {
-  "Centennial High School": "289 College Ave. West",
-  "Colonial Drive Park": "209 Colonial Dr.",
-  "Earl Brimblecombe Park": "17 Elmira Rd. North",
-  "Exhibition Park": "Kathleen St.",
-  "Guelph Lake Sports Fields": "664 Woodlawn Rd East",
-  "Hugh Gurhre Park": "111 Forest St.",
-  "Marden Park": "7391 Marden Rd.",
-  "Margaret Greene Park": "80 Westwood Rd.",
-  "Norm Jary Park": "22 Shelldale Crescent",
-  "Pine Ridge Park": "87 Pine Ridge Drive",
-  "Riverside Park": "709 Woolwich St.",
-  "Royal City Park": "139 Gordon St.",
-  "W.E. Hamilton Park": "275 Scottsdale Drive",
-  "University of Guelph – East & West": "South Ring Rd E & Stone Rd E",
-  "University of Guelph – Main Diamond": "South Ring Rd E & College Ave.",
-};
+// Placeholder team used by the API for practice slots
+const PLACEHOLDER_TEAM_ID = 1;
 
-test("find schedule and create .ics", async ({ page }) => {
+test("find schedule and create .ics", async ({ request }) => {
   const scheduleUrl =
     process.env.SCHEDULE_URL ||
     "https://perpetualmotion.org/3-pitch-schedules-and-standings/";
@@ -35,127 +19,87 @@ test("find schedule and create .ics", async ({ page }) => {
   const calendarName = process.env.CALENDAR_NAME || "McGlovin 3 Pitch";
   const iCalFileName = process.env.ICAL_FILE_NAME || "mcglovin";
 
-  const apiBaseUrl = "https://data.perpetualmotion.org";
+  // Every season/league/team across all sports. Teams are re-created with a new
+  // id each season, so our team has to be looked up by name every run.
+  const seasonsResponse = await request.get(`${apiBaseUrl}/schedules-standings`);
+  expect(
+    seasonsResponse.ok(),
+    `schedules-standings returned ${seasonsResponse.status()}`
+  ).toBeTruthy();
+  const seasons = await seasonsResponse.json();
 
-  page.on("console", (msg) => {
-    console.log(msg);
-  });
+  let league: any;
+  let team: any;
 
-  // page.on("response", (response) =>
-  //   console.log("<<", response.status(), response.url())
-  // );
-
-  // Listen for the schedule request/response
-    const url = "/web-app/api/schedules-standings";
-  const scheduleApiPromise = page.waitForResponse(
-    async (response) => {
-      if (response.url().includes(url)) {
-        return true;
-      }
-      return false;
-    },
-    { timeout: 5000 }
-  );
-
-  await page.goto(scheduleUrl);
-
-  const response = await scheduleApiPromise;
-  const scheduleData = await response.json();
-
-  let teamUrl = "";
-
-  // scheduleData is an array of seasons, each with an array of leagues
-  // Lookup our teams current id
-  scheduleData.forEach((season: any) => {
+  // Each season contains an array of leagues.
+  // The day of the week separates teams that share a name across leagues.
+  seasons.forEach((season: any) => {
     season.leagues.forEach((division: any) => {
-      if (division.weekday === dayOfWeek) {
-          division.teams.forEach((team: any) => {
-            if (team.name === teamName) {
-              teamUrl = `/web-app/team/${team.id}`;
-            }
-          });
+      if (division.weekday !== dayOfWeek) return;
+      (division.teams || []).forEach((candidate: any) => {
+        if (candidate.name.trim() === teamName) {
+          league = division;
+          team = candidate;
         }
+      });
     });
   });
 
-  if (!teamUrl) {
-    throw new Error(`Could not find team ID for ${teamName}`);
+  if (!team) {
+    throw new Error(`Could not find team ID for ${teamName} on ${dayOfWeek}`);
   }
 
-  // Go to our teams current season schedule page
-  // https://data.perpetualmotion.org/web-app/team/13501
-  await page.goto(apiBaseUrl + teamUrl);
+  // The league schedule holds every week's matches plus the venue.
+  const scheduleResponse = await request.get(
+    `${apiBaseUrl}/schedules-standings/schedule/${league.id}`
+  );
+  expect(
+    scheduleResponse.ok(),
+    `schedule/${league.id} returned ${scheduleResponse.status()}`
+  ).toBeTruthy();
+  const { weeks, venues } = await scheduleResponse.json();
 
-  const teamScheduleHeading = await page
-    .getByRole("heading", {
-      name: teamName,
-    })
-    .textContent();
-  // await expect(teamScheduleHeading).to();
+  const venuesById = new Map<number, any>(
+    (venues || []).map((venue: any) => [venue.id, venue])
+  );
 
-  // Read data from table rows
+  const teamScheduleHeading = `${team.name} - ${league.name} - ${league.weekday}`;
+
   let games: Array<any> = [];
-  const rows = page.locator(".matchInfo .table tbody tr");
-  const rowCount = await rows.count();
 
-  for (let i = 0; i < rowCount; i++) {
-    const row = rows.nth(i);
-    const cells = await row.locator("td").allTextContents();
+  (weeks || []).forEach((week: any) => {
+    (week.matches || []).forEach((match: any) => {
+      // teamOne is the home/dark side, teamTwo the away/light side.
+      const isHomeTeam = match.teamOneID === team.id;
+      const isAwayTeam = match.teamTwoID === team.id;
 
-    const gameNumber = cells[0].trim();
-    const dateStr = cells[1].trim(); // 'Wed, Aug 07'
+      // Skips other teams' games, and playoff weeks where both sides are still
+      // placeholders ("1st" vs "4th") rather than real teams.
+      if (!isHomeTeam && !isAwayTeam) return;
 
-    let opponentTeamName: string;
-    let opponentInfo: string;
-    let opponentWinLoss: string;
-    let opponentSpiritScore: string;
+      const opponentId = isHomeTeam ? match.teamTwoID : match.teamOneID;
+      const opponentName = isHomeTeam ? match.teamTwoName : match.teamOneName;
+      const venue = venuesById.get(match.venueID);
 
-    if (cells[2].trim() === "PRACTICE") {
-      opponentTeamName = "Practice";
-      opponentWinLoss = "N/A";
-      opponentSpiritScore = opponentInfo = "N/A"
-    } else {
-      const opponent = row.locator("td:nth-child(3)");
-      opponentTeamName = (await opponent.locator("a").textContent()) || "";
-      opponentInfo = (await opponent.textContent()) || "";
-      [opponentWinLoss, opponentSpiritScore] = opponentInfo
-        .replace(opponentTeamName, "")
-        .trim()
-        .split(" ");
-    }
-
-    const result = cells[3].trim();
-
-    const fieldLocator = row.locator("td:nth-child(5) a");
-    const field = (await fieldLocator.textContent()) || "";
-    const fieldHref = (await fieldLocator.getAttribute("href")) || "";
-
-    const timeStr = cells[5].trim(); // '6:30 PM'
-    // For some reason Dave has this as Dark/Light in some cases and Home/Away in others
-    const homeOrAwayIndicator = cells[6].trim().toLowerCase(); // Dark/Light, Home/Away
-    const isHomeTeam = (homeOrAwayIndicator === "dark" || homeOrAwayIndicator === "home");
-    const isAwayTeam = (homeOrAwayIndicator === "light" || homeOrAwayIndicator === "away");
-
-    const game = {
-      id: uuid(),
-      gameNumber,
-      startTime: parse(
-        `${dateStr} ${timeStr}`,
-        "EEE, MMM dd h:mm a",
-        new Date()
-      ),
-      opponent: opponentTeamName.trim(),
-      opponentWinLoss,
-      opponentSpiritScore,
-      result,
-      field: field.trim(),
-      fieldHref,
-      isHomeTeam,
-      isAwayTeam,
-    };
-    console.log(game);
-    games.push(game);
-  }
+      const game = {
+        id: uuid(),
+        week: week.weekLabel,
+        startTime: parse(
+          `${week.weekDate} ${match.time}`,
+          "yyyy-MM-dd h:mm a",
+          new Date()
+        ),
+        opponent:
+          opponentId === PLACEHOLDER_TEAM_ID ? "Practice" : opponentName.trim(),
+        field: (venue?.name || "").trim(),
+        fieldHref: venue?.mapsLink || "",
+        isHomeTeam,
+        isAwayTeam,
+      };
+      console.log(game);
+      games.push(game);
+    });
+  });
 
   const calendar = ical({ name: calendarName });
 
@@ -189,15 +133,12 @@ test("find schedule and create .ics", async ({ page }) => {
     });
   });
 
-  fs.writeFile(`./ics/${iCalFileName}.ics`, calendar.toString(), (err) => {
-    if (err) throw err;
-  });
+  fs.writeFileSync(`./ics/${iCalFileName}.ics`, calendar.toString());
 
-  expect(games).toEqual(
-    expect.arrayContaining([
-      expect.objectContaining({
-        startTime: expect.any(Date),
-      }),
-    ])
-  );
+  expect(
+    games.length,
+    `No games found for ${teamName} on ${dayOfWeek} in league ${league?.id}`
+  ).toBeGreaterThan(0);
+
+  expect(games.every((game) => isValid(game.startTime))).toBe(true);
 });

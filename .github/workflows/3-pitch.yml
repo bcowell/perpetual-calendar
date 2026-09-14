@@ -39,16 +39,14 @@ jobs:
           node-version: lts/*
       - name: Install dependencies
         run: npm i
-      - name: Install Playwright Browsers
-        run: npx playwright install --with-deps
       - name: Run Playwright tests
         run: npx playwright test get-schedule
         env:
-          SCHEDULE_URL: ${{ github.event.inputs.scheduleUrl }}
-          TEAM_NAME: ${{ github.event.inputs.teamName }}
-          DAY_OF_WEEK: ${{ github.event.inputs.dayOfWeek }}
-          CALENDAR_NAME: ${{ github.event.inputs.calendarName }}
-          ICAL_FILE_NAME: ${{ github.event.inputs.iCalFileName }}
+          SCHEDULE_URL: ${{ inputs.scheduleUrl || 'https://perpetualmotion.org/3-pitch-schedules-and-standings/' }}
+          TEAM_NAME: ${{ inputs.teamName || 'McGlovin' }}
+          DAY_OF_WEEK: ${{ inputs.dayOfWeek || 'Wednesday' }}
+          CALENDAR_NAME: ${{ inputs.calendarName || 'McGlovin 3 Pitch' }}
+          ICAL_FILE_NAME: ${{ inputs.iCalFileName || 'mcglovin' }}
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: Auto-update ics changes
