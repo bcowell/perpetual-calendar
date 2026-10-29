@@ -4,11 +4,11 @@ PRODID:-//sebbo.net//ical-generator//EN
 NAME:Interdimensional Pickle Beings Pickleball
 X-WR-CALNAME:Interdimensional Pickle Beings Pickleball
 BEGIN:VEVENT
-UID:5b17a0a3-57d2-452a-ab20-5dc5b876b6eb
+UID:e375d91f-e83f-4618-b64b-5eef25fa46f4
 SEQUENCE:0
-DTSTAMP:20261029T025536Z
+DTSTAMP:20261029T025842Z
 DTSTART:20261104T020000Z
-DTEND:20261104T033000Z
+DTEND:20261104T023000Z
 SUMMARY:Dill With It vs Interdimensional Pickle Beings
 LOCATION:Lakeside # 3
 DESCRIPTION:Interdimensional Pickle Beings - Lakeside Church - Recreationa
@@ -17,11 +17,11 @@ DESCRIPTION:Interdimensional Pickle Beings - Lakeside Church - Recreationa
  AoIRuKJ5jxY&usp=sharing
 END:VEVENT
 BEGIN:VEVENT
-UID:3a0c4c4f-3739-40c2-87d9-4c37607d416e
+UID:d8c96119-3bb7-4bdd-ab6e-1b9e08423c41
 SEQUENCE:0
-DTSTAMP:20261029T025536Z
+DTSTAMP:20261029T025842Z
 DTSTART:20261104T023000Z
-DTEND:20261104T040000Z
+DTEND:20261104T030000Z
 SUMMARY:Pickled Beets vs Interdimensional Pickle Beings
 LOCATION:Lakeside # 4
 DESCRIPTION:Interdimensional Pickle Beings - Lakeside Church - Recreationa
