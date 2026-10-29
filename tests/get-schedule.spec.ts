@@ -102,6 +102,11 @@ test("find schedule and create .ics", async ({ request }) => {
       const opponentName = isHomeTeam ? match.teamTwoName : match.teamOneName;
       const venue = venuesById.get(match.venueID);
 
+      if (!week.weekDate) {
+        console.log("Week without weekDate:", JSON.stringify({ ...week, matches: undefined }));
+        console.log("Match:", JSON.stringify(match));
+      }
+
       const game = {
         id: uuid(),
         week: week.weekLabel,
