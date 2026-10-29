@@ -129,6 +129,8 @@ test("find schedule and create .ics", async ({ request }) => {
 
     if (scheduleUrl.includes("ultimate")) {
       endTime.setMinutes(endTime.getMinutes() + 45);
+    } else if (scheduleUrl.includes("pickleball")) {
+      endTime.setMinutes(endTime.getMinutes() + 30);
     } else {
       endTime.setHours(endTime.getHours() + 1);
       endTime.setMinutes(endTime.getMinutes() + 30);
