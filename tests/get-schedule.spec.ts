@@ -10,6 +10,27 @@ const apiBaseUrl = "https://data.perpetualmotion.org/web-app/api";
 // Placeholder team used by the API for practice slots
 const PLACEHOLDER_TEAM_ID = 1;
 
+// Leagues don't all format match times the same way ("7:00 PM", "7:00PM", "19:00").
+const TIME_FORMATS = ["h:mm a", "h:mma", "h a", "ha", "H:mm", "H:mm:ss"];
+
+const parseStartTime = (weekDate: string, time: string) => {
+  // weekDate is sometimes a full ISO timestamp; only the day matters.
+  const day = String(weekDate).trim().slice(0, 10);
+  for (const format of TIME_FORMATS) {
+    const parsed = parse(
+      `${day} ${String(time).trim()}`,
+      `yyyy-MM-dd ${format}`,
+      new Date()
+    );
+    if (isValid(parsed)) return parsed;
+  }
+  throw new Error(
+    `Could not parse start time from weekDate=${JSON.stringify(
+      weekDate
+    )} time=${JSON.stringify(time)}`
+  );
+};
+
 test("find schedule and create .ics", async ({ request }) => {
   const scheduleUrl =
     process.env.SCHEDULE_URL ||
@@ -84,11 +105,7 @@ test("find schedule and create .ics", async ({ request }) => {
       const game = {
         id: uuid(),
         week: week.weekLabel,
-        startTime: parse(
-          `${week.weekDate} ${match.time}`,
-          "yyyy-MM-dd h:mm a",
-          new Date()
-        ),
+        startTime: parseStartTime(week.weekDate, match.time),
         opponent:
           opponentId === PLACEHOLDER_TEAM_ID ? "Practice" : opponentName.trim(),
         field: (venue?.name || "").trim(),
