@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//sebbo.net//ical-generator//EN
+NAME:Interdimensional Pickle Beings Pickleball
+X-WR-CALNAME:Interdimensional Pickle Beings Pickleball
+BEGIN:VEVENT
+UID:5b17a0a3-57d2-452a-ab20-5dc5b876b6eb
+SEQUENCE:0
+DTSTAMP:20261029T025536Z
+DTSTART:20261104T020000Z
+DTEND:20261104T033000Z
+SUMMARY:Dill With It vs Interdimensional Pickle Beings
+LOCATION:Lakeside # 3
+DESCRIPTION:Interdimensional Pickle Beings - Lakeside Church - Recreationa
+ l - Open 2's - Tuesday\n  Home: Dill With It\n  Away: Interdimensional Pic
+ kle Beings\n  https://www.google.com/maps/d/edit?mid=1R2Hn8Yj6iwYt_OygJcuR
+ AoIRuKJ5jxY&usp=sharing
+END:VEVENT
+BEGIN:VEVENT
+UID:3a0c4c4f-3739-40c2-87d9-4c37607d416e
+SEQUENCE:0
+DTSTAMP:20261029T025536Z
+DTSTART:20261104T023000Z
+DTEND:20261104T040000Z
+SUMMARY:Pickled Beets vs Interdimensional Pickle Beings
+LOCATION:Lakeside # 4
+DESCRIPTION:Interdimensional Pickle Beings - Lakeside Church - Recreationa
+ l - Open 2's - Tuesday\n  Home: Pickled Beets\n  Away: Interdimensional Pi
+ ckle Beings\n  https://www.google.com/maps/d/edit?mid=1R2Hn8Yj6iwYt_OygJcu
+ RAoIRuKJ5jxY&usp=sharing
+END:VEVENT
+END:VCALENDAR
