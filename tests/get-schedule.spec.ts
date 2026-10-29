@@ -1,5 +1,5 @@
 import { test, expect } from "@playwright/test";
-import { parse, isValid } from "date-fns";
+import { parse, isValid, format } from "date-fns";
 import { v4 as uuid } from "uuid";
 import ical from "ical-generator";
 import fs from "fs";
@@ -10,25 +10,23 @@ const apiBaseUrl = "https://data.perpetualmotion.org/web-app/api";
 // Placeholder team used by the API for practice slots
 const PLACEHOLDER_TEAM_ID = 1;
 
-// Leagues don't all format match times the same way ("7:00 PM", "7:00PM", "19:00").
-const TIME_FORMATS = ["h:mm a", "h:mma", "h a", "ha", "H:mm", "H:mm:ss"];
+// Some leagues leave weekDate blank and only send a label like
+// "Tuesday, November 3". The label has no year, so use the year whose weekday
+// matches, closest to today (seasons can run past New Year).
+const resolveWeekDate = (week: any) => {
+  if (week.weekDate) return week.weekDate;
 
-const parseStartTime = (weekDate: string, time: string) => {
-  // weekDate is sometimes a full ISO timestamp; only the day matters.
-  const day = String(weekDate).trim().slice(0, 10);
-  for (const format of TIME_FORMATS) {
-    const parsed = parse(
-      `${day} ${String(time).trim()}`,
-      `yyyy-MM-dd ${format}`,
-      new Date()
-    );
-    if (isValid(parsed)) return parsed;
+  const [weekday, monthDay] = String(week.dateLabel).split(", ");
+  const thisYear = new Date().getFullYear();
+  const candidates = [thisYear - 1, thisYear, thisYear + 1]
+    .map((year) => parse(`${monthDay} ${year}`, "MMMM d yyyy", new Date()))
+    .filter((date) => isValid(date) && format(date, "EEEE") === weekday)
+    .sort((a, b) => Math.abs(a.getTime() - Date.now()) - Math.abs(b.getTime() - Date.now()));
+
+  if (!candidates.length) {
+    throw new Error(`Could not work out a date for ${week.weekLabel} from "${week.dateLabel}"`);
   }
-  throw new Error(
-    `Could not parse start time from weekDate=${JSON.stringify(
-      weekDate
-    )} time=${JSON.stringify(time)}`
-  );
+  return format(candidates[0], "yyyy-MM-dd");
 };
 
 test("find schedule and create .ics", async ({ request }) => {
@@ -102,15 +100,14 @@ test("find schedule and create .ics", async ({ request }) => {
       const opponentName = isHomeTeam ? match.teamTwoName : match.teamOneName;
       const venue = venuesById.get(match.venueID);
 
-      if (!week.weekDate) {
-        console.log("Week without weekDate:", JSON.stringify({ ...week, matches: undefined }));
-        console.log("Match:", JSON.stringify(match));
-      }
-
       const game = {
         id: uuid(),
         week: week.weekLabel,
-        startTime: parseStartTime(week.weekDate, match.time),
+        startTime: parse(
+          `${resolveWeekDate(week)} ${match.time}`,
+          "yyyy-MM-dd h:mm a",
+          new Date()
+        ),
         opponent:
           opponentId === PLACEHOLDER_TEAM_ID ? "Practice" : opponentName.trim(),
         field: (venue?.name || "").trim(),
