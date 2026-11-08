@@ -4,9 +4,9 @@ PRODID:-//sebbo.net//ical-generator//EN
 NAME:Interdimensional Pickle Beings Pickleball
 X-WR-CALNAME:Interdimensional Pickle Beings Pickleball
 BEGIN:VEVENT
-UID:fd186dac-362f-4039-a237-59a3180f99a4
+UID:3ce99acf-286e-49b1-a769-bef66d09df0c
 SEQUENCE:0
-DTSTAMP:20261101T045941Z
+DTSTAMP:20261108T050510Z
 DTSTART:20261104T020000Z
 DTEND:20261104T023000Z
 SUMMARY:Dill With It vs Interdimensional Pickle Beings
@@ -17,9 +17,9 @@ DESCRIPTION:Interdimensional Pickle Beings - Lakeside Church - Recreationa
  AoIRuKJ5jxY&usp=sharing
 END:VEVENT
 BEGIN:VEVENT
-UID:2bed715d-7528-4a87-8bb7-911060fad9b7
+UID:f2d55eb2-23c9-476c-80ff-40f41b66ea6a
 SEQUENCE:0
-DTSTAMP:20261101T045941Z
+DTSTAMP:20261108T050510Z
 DTSTART:20261104T023000Z
 DTEND:20261104T030000Z
 SUMMARY:Pickled Beets vs Interdimensional Pickle Beings
@@ -28,5 +28,135 @@ DESCRIPTION:Interdimensional Pickle Beings - Lakeside Church - Recreationa
  l - Open 2's - Tuesday\n  Home: Pickled Beets\n  Away: Interdimensional Pi
  ckle Beings\n  https://www.google.com/maps/d/edit?mid=1R2Hn8Yj6iwYt_OygJcu
  RAoIRuKJ5jxY&usp=sharing
+END:VEVENT
+BEGIN:VEVENT
+UID:64fe73ff-9181-4b2e-b9c2-242658669170
+SEQUENCE:0
+DTSTAMP:20261108T050510Z
+DTSTART:20261111T010000Z
+DTEND:20261111T013000Z
+SUMMARY:Neighbours vs Interdimensional Pickle Beings
+LOCATION:Lakeside # 3
+DESCRIPTION:Interdimensional Pickle Beings - Lakeside Church - Recreationa
+ l - Open 2's - Tuesday\n  Home: Neighbours\n  Away: Interdimensional Pickl
+ e Beings\n  https://www.google.com/maps/d/edit?mid=1R2Hn8Yj6iwYt_OygJcuRAo
+ IRuKJ5jxY&usp=sharing
+END:VEVENT
+BEGIN:VEVENT
+UID:e0214208-24b5-4f0f-b547-3c52b2469097
+SEQUENCE:0
+DTSTAMP:20261108T050510Z
+DTSTART:20261111T013000Z
+DTEND:20261111T020000Z
+SUMMARY:TV Timeout vs Interdimensional Pickle Beings
+LOCATION:Lakeside # 4
+DESCRIPTION:Interdimensional Pickle Beings - Lakeside Church - Recreationa
+ l - Open 2's - Tuesday\n  Home: TV Timeout\n  Away: Interdimensional Pickl
+ e Beings\n  https://www.google.com/maps/d/edit?mid=1R2Hn8Yj6iwYt_OygJcuRAo
+ IRuKJ5jxY&usp=sharing
+END:VEVENT
+BEGIN:VEVENT
+UID:979a9c7b-9b7f-43c9-ad62-7e9defb88408
+SEQUENCE:0
+DTSTAMP:20261108T050510Z
+DTSTART:20261118T020000Z
+DTEND:20261118T023000Z
+SUMMARY:Timmerstees vs Interdimensional Pickle Beings
+LOCATION:Lakeside # 4
+DESCRIPTION:Interdimensional Pickle Beings - Lakeside Church - Recreationa
+ l - Open 2's - Tuesday\n  Home: Timmerstees\n  Away: Interdimensional Pick
+ le Beings\n  https://www.google.com/maps/d/edit?mid=1R2Hn8Yj6iwYt_OygJcuRA
+ oIRuKJ5jxY&usp=sharing
+END:VEVENT
+BEGIN:VEVENT
+UID:692c3a15-e48e-475f-8e80-8d2a9bce3d3e
+SEQUENCE:0
+DTSTAMP:20261108T050510Z
+DTSTART:20261118T023000Z
+DTEND:20261118T030000Z
+SUMMARY:Cooking Up Dinks vs Interdimensional Pickle Beings
+LOCATION:Lakeside # 3
+DESCRIPTION:Interdimensional Pickle Beings - Lakeside Church - Recreationa
+ l - Open 2's - Tuesday\n  Home: Cooking Up Dinks\n  Away: Interdimensional
+  Pickle Beings\n  https://www.google.com/maps/d/edit?mid=1R2Hn8Yj6iwYt_Oyg
+ JcuRAoIRuKJ5jxY&usp=sharing
+END:VEVENT
+BEGIN:VEVENT
+UID:9ea3f15f-7251-4249-8c1a-b9e51912e18e
+SEQUENCE:0
+DTSTAMP:20261108T050510Z
+DTSTART:20261125T010000Z
+DTEND:20261125T013000Z
+SUMMARY:Interdimensional Pickle Beings vs In A Pickle
+LOCATION:Lakeside # 4
+DESCRIPTION:Interdimensional Pickle Beings - Lakeside Church - Recreationa
+ l - Open 2's - Tuesday\n  Home: Interdimensional Pickle Beings\n  Away: In
+  A Pickle\n  https://www.google.com/maps/d/edit?mid=1R2Hn8Yj6iwYt_OygJcuRA
+ oIRuKJ5jxY&usp=sharing
+END:VEVENT
+BEGIN:VEVENT
+UID:993c749b-c771-4b74-b83b-c1ce81c39d8c
+SEQUENCE:0
+DTSTAMP:20261108T050510Z
+DTSTART:20261125T013000Z
+DTEND:20261125T020000Z
+SUMMARY:Pickled Beets vs Interdimensional Pickle Beings
+LOCATION:Lakeside # 4
+DESCRIPTION:Interdimensional Pickle Beings - Lakeside Church - Recreationa
+ l - Open 2's - Tuesday\n  Home: Pickled Beets\n  Away: Interdimensional Pi
+ ckle Beings\n  https://www.google.com/maps/d/edit?mid=1R2Hn8Yj6iwYt_OygJcu
+ RAoIRuKJ5jxY&usp=sharing
+END:VEVENT
+BEGIN:VEVENT
+UID:19e2c445-864d-4360-8a37-61d2602f1b47
+SEQUENCE:0
+DTSTAMP:20261108T050510Z
+DTSTART:20261202T020000Z
+DTEND:20261202T023000Z
+SUMMARY:Neighbours vs Interdimensional Pickle Beings
+LOCATION:Lakeside # 1
+DESCRIPTION:Interdimensional Pickle Beings - Lakeside Church - Recreationa
+ l - Open 2's - Tuesday\n  Home: Neighbours\n  Away: Interdimensional Pickl
+ e Beings\n  https://www.google.com/maps/d/edit?mid=1R2Hn8Yj6iwYt_OygJcuRAo
+ IRuKJ5jxY&usp=sharing
+END:VEVENT
+BEGIN:VEVENT
+UID:8342b3b3-bdfa-4fde-962d-303b461dbacf
+SEQUENCE:0
+DTSTAMP:20261108T050510Z
+DTSTART:20261202T023000Z
+DTEND:20261202T030000Z
+SUMMARY:TV Timeout vs Interdimensional Pickle Beings
+LOCATION:Lakeside # 2
+DESCRIPTION:Interdimensional Pickle Beings - Lakeside Church - Recreationa
+ l - Open 2's - Tuesday\n  Home: TV Timeout\n  Away: Interdimensional Pickl
+ e Beings\n  https://www.google.com/maps/d/edit?mid=1R2Hn8Yj6iwYt_OygJcuRAo
+ IRuKJ5jxY&usp=sharing
+END:VEVENT
+BEGIN:VEVENT
+UID:ce36e17d-8add-4100-b7c8-3098ba247c09
+SEQUENCE:0
+DTSTAMP:20261108T050510Z
+DTSTART:20261209T010000Z
+DTEND:20261209T013000Z
+SUMMARY:Timmerstees vs Interdimensional Pickle Beings
+LOCATION:Lakeside # 2
+DESCRIPTION:Interdimensional Pickle Beings - Lakeside Church - Recreationa
+ l - Open 2's - Tuesday\n  Home: Timmerstees\n  Away: Interdimensional Pick
+ le Beings\n  https://www.google.com/maps/d/edit?mid=1R2Hn8Yj6iwYt_OygJcuRA
+ oIRuKJ5jxY&usp=sharing
+END:VEVENT
+BEGIN:VEVENT
+UID:88290d17-20be-469a-979c-a554a959dbb9
+SEQUENCE:0
+DTSTAMP:20261108T050510Z
+DTSTART:20261209T013000Z
+DTEND:20261209T020000Z
+SUMMARY:Cooking Up Dinks vs Interdimensional Pickle Beings
+LOCATION:Lakeside # 1
+DESCRIPTION:Interdimensional Pickle Beings - Lakeside Church - Recreationa
+ l - Open 2's - Tuesday\n  Home: Cooking Up Dinks\n  Away: Interdimensional
+  Pickle Beings\n  https://www.google.com/maps/d/edit?mid=1R2Hn8Yj6iwYt_Oyg
+ JcuRAoIRuKJ5jxY&usp=sharing
 END:VEVENT
 END:VCALENDAR
