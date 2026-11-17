@@ -4,6 +4,7 @@ import { v4 as uuid } from "uuid";
 import ical from "ical-generator";
 import fs from "fs";
 import 'dotenv/config';
+import { spiritByTeam, spiritLine } from "./spirit";
 
 const apiBaseUrl = "https://data.perpetualmotion.org/web-app/api";
 
@@ -78,6 +79,19 @@ test("find schedule and create .ics", async ({ request }) => {
   ).toBeTruthy();
   const { weeks, venues } = await scheduleResponse.json();
 
+  // Current spirit averages for every team in the league. Optional: a failed
+  // request leaves spirit out of the notes rather than failing the calendar.
+  const standingsResponse = await request.get(
+    `${apiBaseUrl}/schedules-standings/standings/${league.id}`
+  );
+  const spirit = spiritByTeam(
+    standingsResponse.ok() ? await standingsResponse.json().catch(() => null) : null
+  );
+  if (!standingsResponse.ok()) {
+    console.log(`standings/${league.id} returned ${standingsResponse.status()}; leaving spirit out`);
+  }
+  const spiritReadAt = new Date();
+
   const venuesById = new Map<number, any>(
     (venues || []).map((venue: any) => [venue.id, venue])
   );
@@ -110,6 +124,7 @@ test("find schedule and create .ics", async ({ request }) => {
         ),
         opponent:
           opponentId === PLACEHOLDER_TEAM_ID ? "Practice" : opponentName.trim(),
+        opponentId: opponentId === PLACEHOLDER_TEAM_ID ? null : opponentId,
         field: (venue?.name || "").trim(),
         fieldHref: venue?.mapsLink || "",
         isHomeTeam,
@@ -140,6 +155,12 @@ test("find schedule and create .ics", async ({ request }) => {
     const visitingTeam = game.isAwayTeam ? teamName : game.opponent;
     const field = game.field;
     const fieldGoogleMapsHref = game.fieldHref;
+    const spiritNote = spiritLine(
+      spirit,
+      { id: team.id, name: teamName },
+      game.opponentId ? { id: game.opponentId, name: game.opponent } : null,
+      spiritReadAt
+    );
 
     calendar.createEvent({
       id: gameId,
@@ -149,7 +170,7 @@ test("find schedule and create .ics", async ({ request }) => {
       location: field,
       description: `${teamScheduleHeading}
   Home: ${homeTeam}
-  Away: ${visitingTeam}
+  Away: ${visitingTeam}${spiritNote ? `\n  ${spiritNote}` : ""}
   ${fieldGoogleMapsHref}`,
     });
   });
