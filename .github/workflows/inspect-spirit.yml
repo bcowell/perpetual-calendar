@@ -1,0 +1,15 @@
+name: Inspect API for spirit scores (temporary)
+on:
+  push:
+    branches: [inspect-spirit]
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: lts/* }
+      - run: node scratch/inspect.mjs
+        env:
+          TEAM_NAME: Interdimensional Pickle Beings
+          DAY_OF_WEEK: Tuesday
