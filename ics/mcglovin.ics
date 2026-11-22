@@ -4,51 +4,55 @@ PRODID:-//sebbo.net//ical-generator//EN
 NAME:McGlovin 3 Pitch
 X-WR-CALNAME:McGlovin 3 Pitch
 BEGIN:VEVENT
-UID:895bf18f-4a21-4acd-9731-7cefd75cb87d
+UID:5082b243-8ff7-4c22-a1d9-4704fd50fe58
 SEQUENCE:0
-DTSTAMP:20261115T041711Z
+DTSTAMP:20261122T043327Z
 DTSTART:20260826T223000Z
 DTEND:20260827T000000Z
 SUMMARY:Brew Jays vs McGlovin
 LOCATION:Earl Brimblecombe # 2
 DESCRIPTION:McGlovin - Recreational - Wednesday\n  Home: Brew Jays\n  Away
- : McGlovin\n  https://www.google.com/maps/d/edit?mid=1Zz_kfogQMJJ7Pv5qARCR
- RsBkpjzzyxE&ll=43.52623824518598%2C-80.29402420000001&z=18
+ : McGlovin\n  Spirit (as of Nov 21): McGlovin 5.00 · Brew Jays 4.67\n  ht
+ tps://www.google.com/maps/d/edit?mid=1Zz_kfogQMJJ7Pv5qARCRRsBkpjzzyxE&ll=4
+ 3.52623824518598%2C-80.29402420000001&z=18
 END:VEVENT
 BEGIN:VEVENT
-UID:4fffdcdb-d8c7-4b53-b221-37cb5307bc20
+UID:f97aba63-552b-49b4-9c93-e4b51d97a99f
 SEQUENCE:0
-DTSTAMP:20261115T041711Z
+DTSTAMP:20261122T043327Z
 DTSTART:20260902T221500Z
 DTEND:20260902T234500Z
 SUMMARY:McGlovin vs Base Down Bats Up
 LOCATION:Margaret Greene # 3
 DESCRIPTION:McGlovin - Recreational - Wednesday\n  Home: McGlovin\n  Away:
-  Base Down Bats Up\n  https://www.google.com/maps/d/edit?mid=1eUvfmqOp0uQ4
- 1VE_vziGEKx6coz9ddw&ll=43.53053862626621%2C-80.28154721606269&z=17
+  Base Down Bats Up\n  Spirit (as of Nov 21): McGlovin 5.00 · Base Down Ba
+ ts Up 4.67\n  https://www.google.com/maps/d/edit?mid=1eUvfmqOp0uQ41VE_vziG
+ EKx6coz9ddw&ll=43.53053862626621%2C-80.28154721606269&z=17
 END:VEVENT
 BEGIN:VEVENT
-UID:14d3a822-5d8d-421c-9908-5851cd1b12a5
+UID:0bcf917f-ef42-478c-a943-ad1343dc8c53
 SEQUENCE:0
-DTSTAMP:20261115T041711Z
+DTSTAMP:20261122T043327Z
 DTSTART:20260909T220000Z
 DTEND:20260909T233000Z
 SUMMARY:The Fowl Balls vs McGlovin
 LOCATION:Margaret Greene # 3
 DESCRIPTION:McGlovin - Recreational - Wednesday\n  Home: The Fowl Balls\n 
-  Away: McGlovin\n  https://www.google.com/maps/d/edit?mid=1eUvfmqOp0uQ41VE
- _vziGEKx6coz9ddw&ll=43.53053862626621%2C-80.28154721606269&z=17
+  Away: McGlovin\n  Spirit (as of Nov 21): McGlovin 5.00 · The Fowl Balls 
+ 5.00\n  https://www.google.com/maps/d/edit?mid=1eUvfmqOp0uQ41VE_vziGEKx6co
+ z9ddw&ll=43.53053862626621%2C-80.28154721606269&z=17
 END:VEVENT
 BEGIN:VEVENT
-UID:8109772e-c0c1-4c94-a7e7-a88e1893ba76
+UID:40b49a0e-314e-418f-ad58-2795608ba2bf
 SEQUENCE:0
-DTSTAMP:20261115T041711Z
+DTSTAMP:20261122T043327Z
 DTSTART:20260916T223000Z
 DTEND:20260917T000000Z
 SUMMARY:McGlovin vs Got the Runs
 LOCATION:Joe Kaine # 8
 DESCRIPTION:McGlovin - Recreational - Wednesday\n  Home: McGlovin\n  Away:
-  Got the Runs\n  https://www.google.com/maps/d/edit?mid=1eVrDxL303MSMPywwh
- mCZ1xtyZuV0Ua0&ll=43.5268799901384%2C-80.24871301389223&z=18
+  Got the Runs\n  Spirit (as of Nov 21): McGlovin 5.00 · Got the Runs 4.83
+ \n  https://www.google.com/maps/d/edit?mid=1eVrDxL303MSMPywwhmCZ1xtyZuV0Ua
+ 0&ll=43.5268799901384%2C-80.24871301389223&z=18
 END:VEVENT
 END:VCALENDAR
