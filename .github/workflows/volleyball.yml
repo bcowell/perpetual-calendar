@@ -1,5 +1,7 @@
 name: Volleyball - Playwright Workflow
 on:
+  push:
+    branches: [volleyball] # TEMP: remove before merging
   workflow_dispatch:
     inputs:
       scheduleUrl:
@@ -43,7 +45,7 @@ jobs:
         run: npx playwright test get-schedule
         env:
           SCHEDULE_URL: ${{ inputs.scheduleUrl || 'https://perpetualmotion.org/indoor-volleyball-schedules-and-standings/' }}
-          TEAM_NAME: ${{ inputs.teamName || 'Interdimensional Pickle Beings' }}
+          TEAM_NAME: ${{ inputs.teamName || '__list_teams__' }}
           LEAGUE_ID: ${{ inputs.leagueId || '2601' }}
           CALENDAR_NAME: ${{ inputs.calendarName || 'Interdimensional Pickle Beings Pickleball' }}
           ICAL_FILE_NAME: ${{ inputs.iCalFileName || 'interdimensional-pickle-beings' }}
