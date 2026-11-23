@@ -5,6 +5,7 @@ import ical from "ical-generator";
 import fs from "fs";
 import 'dotenv/config';
 import { spiritByTeam, spiritLine } from "./spirit";
+import { findTeam } from "./find-team";
 
 const apiBaseUrl = "https://data.perpetualmotion.org/web-app/api";
 
@@ -48,26 +49,11 @@ test("find schedule and create .ics", async ({ request }) => {
   ).toBeTruthy();
   const seasons = await seasonsResponse.json();
 
-  let league: any;
-  let team: any;
-
-  // Each season contains an array of leagues.
-  // The day of the week separates teams that share a name across leagues.
-  seasons.forEach((season: any) => {
-    season.leagues.forEach((division: any) => {
-      if (division.weekday !== dayOfWeek) return;
-      (division.teams || []).forEach((candidate: any) => {
-        if (candidate.name.trim() === teamName) {
-          league = division;
-          team = candidate;
-        }
-      });
-    });
+  const { league, team } = findTeam(seasons, {
+    teamName,
+    dayOfWeek,
+    leagueId: process.env.LEAGUE_ID ? Number(process.env.LEAGUE_ID) : undefined,
   });
-
-  if (!team) {
-    throw new Error(`Could not find team ID for ${teamName} on ${dayOfWeek}`);
-  }
 
   // The league schedule holds every week's matches plus the venue.
   const scheduleResponse = await request.get(

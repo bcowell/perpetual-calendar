@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//sebbo.net//ical-generator//EN
+NAME:The Spike is a Lie Volleyball
+X-WR-CALNAME:The Spike is a Lie Volleyball
+BEGIN:VEVENT
+UID:fa31e7e1-69df-42f0-9e1e-7ff41be273a2
+SEQUENCE:0
+DTSTAMP:20261123T150830Z
+DTSTART:20261119T010000Z
+DTEND:20261119T023000Z
+SUMMARY:Hit Happens vs The Spike is a Lie
+LOCATION:St Pauls # 1 (Left)
+DESCRIPTION:The Spike is a Lie - Indoor - Recreational 6's (St. Paul's) - 
+ Wednesday\n  Home: Hit Happens\n  Away: The Spike is a Lie\n  Spirit (as o
+ f Nov 23): The Spike is a Lie 4.50 · Hit Happens 5.00\n  https://www.goog
+ le.com/maps/d/edit?mid=1GmXBHK5VkyKge7aRsefEu-mZDDlYYdc
+END:VEVENT
+END:VCALENDAR

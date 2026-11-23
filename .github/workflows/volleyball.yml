@@ -1,0 +1,53 @@
+name: Volleyball - Playwright Workflow
+on:
+  workflow_dispatch:
+    inputs:
+      scheduleUrl:
+        description: "Url pointing to the sport schedule"
+        required: true
+        default: "https://perpetualmotion.org/indoor-volleyball-schedules-and-standings/"
+      teamName:
+        description: "Exact match team name to look for on the page"
+        required: true
+        default: "The Spike is a Lie"
+      leagueId:
+        description: "League id, from the schedule page's ?league= in the URL"
+        required: true
+        default: "2601"
+      calendarName:
+        description: "Title of the calendar"
+        required: true
+        default: "The Spike is a Lie Volleyball"
+      iCalFileName:
+        description: "Outputs calendar file as <iCalFileName>.ics"
+        required: true
+        default: "the-spike-is-a-lie"
+  schedule:
+    - cron: "0 0 * * 0" # every Sunday at midnight
+
+env:
+  TZ: America/Toronto
+
+jobs:
+  test:
+    timeout-minutes: 60
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: lts/*
+      - name: Install dependencies
+        run: npm i
+      - name: Run Playwright tests
+        run: npx playwright test get-schedule
+        env:
+          SCHEDULE_URL: ${{ inputs.scheduleUrl || 'https://perpetualmotion.org/indoor-volleyball-schedules-and-standings/' }}
+          TEAM_NAME: ${{ inputs.teamName || 'The Spike is a Lie' }}
+          LEAGUE_ID: ${{ inputs.leagueId || '2601' }}
+          CALENDAR_NAME: ${{ inputs.calendarName || 'The Spike is a Lie Volleyball' }}
+          ICAL_FILE_NAME: ${{ inputs.iCalFileName || 'the-spike-is-a-lie' }}
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: Auto-update ics changes
+          file_pattern: "ics/*.ics"
