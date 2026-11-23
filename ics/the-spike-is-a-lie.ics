@@ -4,16 +4,108 @@ PRODID:-//sebbo.net//ical-generator//EN
 NAME:The Spike is a Lie Volleyball
 X-WR-CALNAME:The Spike is a Lie Volleyball
 BEGIN:VEVENT
-UID:fa31e7e1-69df-42f0-9e1e-7ff41be273a2
+UID:030fed5b-3755-46cc-b9c7-f15795532713
 SEQUENCE:0
-DTSTAMP:20261123T150830Z
+DTSTAMP:20261123T152141Z
 DTSTART:20261119T010000Z
-DTEND:20261119T023000Z
+DTEND:20261119T020000Z
 SUMMARY:Hit Happens vs The Spike is a Lie
 LOCATION:St Pauls # 1 (Left)
 DESCRIPTION:The Spike is a Lie - Indoor - Recreational 6's (St. Paul's) - 
  Wednesday\n  Home: Hit Happens\n  Away: The Spike is a Lie\n  Spirit (as o
  f Nov 23): The Spike is a Lie 4.50 · Hit Happens 5.00\n  https://www.goog
  le.com/maps/d/edit?mid=1GmXBHK5VkyKge7aRsefEu-mZDDlYYdc
+END:VEVENT
+BEGIN:VEVENT
+UID:c9aaee33-640f-4dea-838c-a13de73cc9a3
+SEQUENCE:0
+DTSTAMP:20261123T152141Z
+DTSTART:20261125T230000Z
+DTEND:20261126T000000Z
+SUMMARY:Let Us Hit? vs The Spike is a Lie
+LOCATION:St Pauls # 1 (Left)
+DESCRIPTION:The Spike is a Lie - Indoor - Recreational 6's (St. Paul's) - 
+ Wednesday\n  Home: Let Us Hit?\n  Away: The Spike is a Lie\n  Spirit (as o
+ f Nov 23): The Spike is a Lie 4.50 · Let Us Hit? 0.00\n  https://www.goog
+ le.com/maps/d/edit?mid=1GmXBHK5VkyKge7aRsefEu-mZDDlYYdc
+END:VEVENT
+BEGIN:VEVENT
+UID:6c25337d-a56c-4af4-865f-8df7ae12cd3d
+SEQUENCE:0
+DTSTAMP:20261123T152141Z
+DTSTART:20261203T010000Z
+DTEND:20261203T020000Z
+SUMMARY:Oncolytic Overlords vs The Spike is a Lie
+LOCATION:St Pauls # 2 (Right)
+DESCRIPTION:The Spike is a Lie - Indoor - Recreational 6's (St. Paul's) - 
+ Wednesday\n  Home: Oncolytic Overlords\n  Away: The Spike is a Lie\n  Spir
+ it (as of Nov 23): The Spike is a Lie 4.50 · Oncolytic Overlords 5.00\n  
+ https://www.google.com/maps/d/edit?mid=1GmXBHK5VkyKge7aRsefEu-mZDDlYYdc
+END:VEVENT
+BEGIN:VEVENT
+UID:4ea3b8ff-c7f1-401e-b8dd-de66fddb0a4d
+SEQUENCE:0
+DTSTAMP:20261123T152141Z
+DTSTART:20270106T230000Z
+DTEND:20270107T000000Z
+SUMMARY:Bumpin & Grindin vs The Spike is a Lie
+LOCATION:St Pauls # 1 (Left)
+DESCRIPTION:The Spike is a Lie - Indoor - Recreational 6's (St. Paul's) - 
+ Wednesday\n  Home: Bumpin & Grindin\n  Away: The Spike is a Lie\n  Spirit 
+ (as of Nov 23): The Spike is a Lie 4.50 · Bumpin & Grindin 5.00\n  https:
+ //www.google.com/maps/d/edit?mid=1GmXBHK5VkyKge7aRsefEu-mZDDlYYdc
+END:VEVENT
+BEGIN:VEVENT
+UID:eb90bbe3-8370-473f-a7be-7407374cef7f
+SEQUENCE:0
+DTSTAMP:20261123T152141Z
+DTSTART:20270114T000000Z
+DTEND:20270114T010000Z
+SUMMARY:The Spike is a Lie vs Louisville
+LOCATION:St Pauls # 1 (Left)
+DESCRIPTION:The Spike is a Lie - Indoor - Recreational 6's (St. Paul's) - 
+ Wednesday\n  Home: The Spike is a Lie\n  Away: Louisville\n  Spirit (as of
+  Nov 23): The Spike is a Lie 4.50 · Louisville 5.00\n  https://www.google
+ .com/maps/d/edit?mid=1GmXBHK5VkyKge7aRsefEu-mZDDlYYdc
+END:VEVENT
+BEGIN:VEVENT
+UID:4c97158e-b3ae-4306-9faf-2c40d35ec335
+SEQUENCE:0
+DTSTAMP:20261123T152141Z
+DTSTART:20270121T020000Z
+DTEND:20270121T030000Z
+SUMMARY:The Empire Spikes Back vs The Spike is a Lie
+LOCATION:St Pauls # 1 (Left)
+DESCRIPTION:The Spike is a Lie - Indoor - Recreational 6's (St. Paul's) - 
+ Wednesday\n  Home: The Empire Spikes Back\n  Away: The Spike is a Lie\n  S
+ pirit (as of Nov 23): The Spike is a Lie 4.50 · The Empire Spikes Back 5.
+ 00\n  https://www.google.com/maps/d/edit?mid=1GmXBHK5VkyKge7aRsefEu-mZDDlY
+ Ydc
+END:VEVENT
+BEGIN:VEVENT
+UID:8f8c2aa6-b94a-48c8-b06e-cdfd76e87b05
+SEQUENCE:0
+DTSTAMP:20261123T152141Z
+DTSTART:20270128T020000Z
+DTEND:20270128T030000Z
+SUMMARY:The Spike is a Lie vs Block Lobsters
+LOCATION:St Pauls # 2 (Right)
+DESCRIPTION:The Spike is a Lie - Indoor - Recreational 6's (St. Paul's) - 
+ Wednesday\n  Home: The Spike is a Lie\n  Away: Block Lobsters\n  Spirit (a
+ s of Nov 23): The Spike is a Lie 4.50 · Block Lobsters 5.00\n  https://ww
+ w.google.com/maps/d/edit?mid=1GmXBHK5VkyKge7aRsefEu-mZDDlYYdc
+END:VEVENT
+BEGIN:VEVENT
+UID:2923c497-e99c-4ac3-88da-ac07ff12b6b4
+SEQUENCE:0
+DTSTAMP:20261123T152141Z
+DTSTART:20270204T010000Z
+DTEND:20270204T020000Z
+SUMMARY:The Spike is a Lie vs Smash or Pass
+LOCATION:St Pauls # 1 (Left)
+DESCRIPTION:The Spike is a Lie - Indoor - Recreational 6's (St. Paul's) - 
+ Wednesday\n  Home: The Spike is a Lie\n  Away: Smash or Pass\n  Spirit (as
+  of Nov 23): The Spike is a Lie 4.50 · Smash or Pass 5.00\n  https://www.
+ google.com/maps/d/edit?mid=1GmXBHK5VkyKge7aRsefEu-mZDDlYYdc
 END:VEVENT
 END:VCALENDAR
