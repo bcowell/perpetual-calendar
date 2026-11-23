@@ -11,7 +11,7 @@ on:
       teamName:
         description: "Exact match team name to look for on the page"
         required: true
-        default: "Interdimensional Pickle Beings"
+        default: "The Spike is a Lie"
       leagueId:
         description: "League id, from the schedule page's ?league= in the URL"
         required: true
@@ -19,11 +19,11 @@ on:
       calendarName:
         description: "Title of the calendar"
         required: true
-        default: "Interdimensional Pickle Beings Pickleball"
+        default: "The Spike is a Lie Volleyball"
       iCalFileName:
         description: "Outputs calendar file as <iCalFileName>.ics"
         required: true
-        default: "interdimensional-pickle-beings"
+        default: "the-spike-is-a-lie"
   schedule:
     - cron: "0 0 * * 0" # every Sunday at midnight
 
@@ -45,10 +45,10 @@ jobs:
         run: npx playwright test get-schedule
         env:
           SCHEDULE_URL: ${{ inputs.scheduleUrl || 'https://perpetualmotion.org/indoor-volleyball-schedules-and-standings/' }}
-          TEAM_NAME: ${{ inputs.teamName || '__list_teams__' }}
+          TEAM_NAME: ${{ inputs.teamName || 'The Spike is a Lie' }}
           LEAGUE_ID: ${{ inputs.leagueId || '2601' }}
-          CALENDAR_NAME: ${{ inputs.calendarName || 'Interdimensional Pickle Beings Pickleball' }}
-          ICAL_FILE_NAME: ${{ inputs.iCalFileName || 'interdimensional-pickle-beings' }}
+          CALENDAR_NAME: ${{ inputs.calendarName || 'The Spike is a Lie Volleyball' }}
+          ICAL_FILE_NAME: ${{ inputs.iCalFileName || 'the-spike-is-a-lie' }}
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: Auto-update ics changes
